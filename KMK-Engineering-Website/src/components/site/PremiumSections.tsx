@@ -35,7 +35,7 @@ export function PartnersSection() { return <Section tone="partners-section"><Hea
 export function TestimonialSection() {
   return <Section tone="light-section">
     <Heading label={c.testimonial.label} title={c.testimonial.heading} />
-    <div className="testimonials-grid">
+    {/* <div className="testimonials-grid"> */}
       {c.testimonial.slides.map((item, index) => <article className="testimonial-card" key={index}>
         <Quote size={40} aria-hidden="true" />
         <blockquote>{item.placeholder}</blockquote>
