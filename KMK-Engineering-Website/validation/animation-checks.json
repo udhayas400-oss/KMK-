@@ -1,0 +1,929 @@
+{
+  "results": [
+    {
+      "width": 1920,
+      "overflow": [],
+      "stableHero": true,
+      "assets": [],
+      "checks": [
+        {
+          "phase": "hero-100",
+          "width": 1920,
+          "scroll": 1920,
+          "hero": 740
+        },
+        {
+          "phase": "hero-600",
+          "width": 1920,
+          "scroll": 1920,
+          "hero": 740
+        },
+        {
+          "phase": "hero-1500",
+          "width": 1920,
+          "scroll": 1920,
+          "hero": 740
+        },
+        {
+          "phase": "#about",
+          "width": 1920,
+          "scroll": 1920,
+          "hero": 740
+        },
+        {
+          "phase": "#services",
+          "width": 1920,
+          "scroll": 1920,
+          "hero": 740
+        },
+        {
+          "phase": ".metrics-section",
+          "width": 1920,
+          "scroll": 1920,
+          "hero": 740
+        },
+        {
+          "phase": "#other-services",
+          "width": 1920,
+          "scroll": 1920,
+          "hero": 740
+        },
+        {
+          "phase": "#why-kmk",
+          "width": 1920,
+          "scroll": 1920,
+          "hero": 740
+        },
+        {
+          "phase": "#certification",
+          "width": 1920,
+          "scroll": 1920,
+          "hero": 740
+        },
+        {
+          "phase": "#blog",
+          "width": 1920,
+          "scroll": 1920,
+          "hero": 740
+        },
+        {
+          "phase": ".testimonials-section",
+          "width": 1920,
+          "scroll": 1920,
+          "hero": 740
+        },
+        {
+          "phase": ".partners-section",
+          "width": 1920,
+          "scroll": 1920,
+          "hero": 740
+        },
+        {
+          "phase": "#faqs",
+          "width": 1920,
+          "scroll": 1920,
+          "hero": 740
+        },
+        {
+          "phase": "#contact",
+          "width": 1920,
+          "scroll": 1920,
+          "hero": 740
+        },
+        {
+          "phase": "footer",
+          "width": 1920,
+          "scroll": 1920,
+          "hero": 740
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "overflow": [],
+      "stableHero": true,
+      "assets": [],
+      "checks": [
+        {
+          "phase": "hero-100",
+          "width": 1440,
+          "scroll": 1440,
+          "hero": 740
+        },
+        {
+          "phase": "hero-600",
+          "width": 1440,
+          "scroll": 1440,
+          "hero": 740
+        },
+        {
+          "phase": "hero-1500",
+          "width": 1440,
+          "scroll": 1440,
+          "hero": 740
+        },
+        {
+          "phase": "#about",
+          "width": 1440,
+          "scroll": 1440,
+          "hero": 740
+        },
+        {
+          "phase": "#services",
+          "width": 1440,
+          "scroll": 1440,
+          "hero": 740
+        },
+        {
+          "phase": ".metrics-section",
+          "width": 1440,
+          "scroll": 1440,
+          "hero": 740
+        },
+        {
+          "phase": "#other-services",
+          "width": 1440,
+          "scroll": 1440,
+          "hero": 740
+        },
+        {
+          "phase": "#why-kmk",
+          "width": 1440,
+          "scroll": 1440,
+          "hero": 740
+        },
+        {
+          "phase": "#certification",
+          "width": 1440,
+          "scroll": 1440,
+          "hero": 740
+        },
+        {
+          "phase": "#blog",
+          "width": 1440,
+          "scroll": 1440,
+          "hero": 740
+        },
+        {
+          "phase": ".testimonials-section",
+          "width": 1440,
+          "scroll": 1440,
+          "hero": 740
+        },
+        {
+          "phase": ".partners-section",
+          "width": 1440,
+          "scroll": 1440,
+          "hero": 740
+        },
+        {
+          "phase": "#faqs",
+          "width": 1440,
+          "scroll": 1440,
+          "hero": 740
+        },
+        {
+          "phase": "#contact",
+          "width": 1440,
+          "scroll": 1440,
+          "hero": 740
+        },
+        {
+          "phase": "footer",
+          "width": 1440,
+          "scroll": 1440,
+          "hero": 740
+        }
+      ]
+    },
+    {
+      "width": 1366,
+      "overflow": [],
+      "stableHero": true,
+      "assets": [],
+      "checks": [
+        {
+          "phase": "hero-100",
+          "width": 1366,
+          "scroll": 1366,
+          "hero": 740
+        },
+        {
+          "phase": "hero-600",
+          "width": 1366,
+          "scroll": 1366,
+          "hero": 740
+        },
+        {
+          "phase": "hero-1500",
+          "width": 1366,
+          "scroll": 1366,
+          "hero": 740
+        },
+        {
+          "phase": "#about",
+          "width": 1366,
+          "scroll": 1366,
+          "hero": 740
+        },
+        {
+          "phase": "#services",
+          "width": 1366,
+          "scroll": 1366,
+          "hero": 740
+        },
+        {
+          "phase": ".metrics-section",
+          "width": 1366,
+          "scroll": 1366,
+          "hero": 740
+        },
+        {
+          "phase": "#other-services",
+          "width": 1366,
+          "scroll": 1366,
+          "hero": 740
+        },
+        {
+          "phase": "#why-kmk",
+          "width": 1366,
+          "scroll": 1366,
+          "hero": 740
+        },
+        {
+          "phase": "#certification",
+          "width": 1366,
+          "scroll": 1366,
+          "hero": 740
+        },
+        {
+          "phase": "#blog",
+          "width": 1366,
+          "scroll": 1366,
+          "hero": 740
+        },
+        {
+          "phase": ".testimonials-section",
+          "width": 1366,
+          "scroll": 1366,
+          "hero": 740
+        },
+        {
+          "phase": ".partners-section",
+          "width": 1366,
+          "scroll": 1366,
+          "hero": 740
+        },
+        {
+          "phase": "#faqs",
+          "width": 1366,
+          "scroll": 1366,
+          "hero": 740
+        },
+        {
+          "phase": "#contact",
+          "width": 1366,
+          "scroll": 1366,
+          "hero": 740
+        },
+        {
+          "phase": "footer",
+          "width": 1366,
+          "scroll": 1366,
+          "hero": 740
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "overflow": [],
+      "stableHero": true,
+      "assets": [],
+      "checks": [
+        {
+          "phase": "hero-100",
+          "width": 1024,
+          "scroll": 1024,
+          "hero": 660
+        },
+        {
+          "phase": "hero-600",
+          "width": 1024,
+          "scroll": 1024,
+          "hero": 660
+        },
+        {
+          "phase": "hero-1500",
+          "width": 1024,
+          "scroll": 1024,
+          "hero": 660
+        },
+        {
+          "phase": "menu-opening",
+          "width": 1024,
+          "scroll": 1024,
+          "hero": 660
+        },
+        {
+          "phase": "#about",
+          "width": 1024,
+          "scroll": 1024,
+          "hero": 660
+        },
+        {
+          "phase": "#services",
+          "width": 1024,
+          "scroll": 1024,
+          "hero": 660
+        },
+        {
+          "phase": ".metrics-section",
+          "width": 1024,
+          "scroll": 1024,
+          "hero": 660
+        },
+        {
+          "phase": "#other-services",
+          "width": 1024,
+          "scroll": 1024,
+          "hero": 660
+        },
+        {
+          "phase": "#why-kmk",
+          "width": 1024,
+          "scroll": 1024,
+          "hero": 660
+        },
+        {
+          "phase": "#certification",
+          "width": 1024,
+          "scroll": 1024,
+          "hero": 660
+        },
+        {
+          "phase": "#blog",
+          "width": 1024,
+          "scroll": 1024,
+          "hero": 660
+        },
+        {
+          "phase": ".testimonials-section",
+          "width": 1024,
+          "scroll": 1024,
+          "hero": 660
+        },
+        {
+          "phase": ".partners-section",
+          "width": 1024,
+          "scroll": 1024,
+          "hero": 660
+        },
+        {
+          "phase": "#faqs",
+          "width": 1024,
+          "scroll": 1024,
+          "hero": 660
+        },
+        {
+          "phase": "#contact",
+          "width": 1024,
+          "scroll": 1024,
+          "hero": 660
+        },
+        {
+          "phase": "footer",
+          "width": 1024,
+          "scroll": 1024,
+          "hero": 660
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "overflow": [],
+      "stableHero": true,
+      "assets": [],
+      "checks": [
+        {
+          "phase": "hero-100",
+          "width": 768,
+          "scroll": 768,
+          "hero": 833.1875
+        },
+        {
+          "phase": "hero-600",
+          "width": 768,
+          "scroll": 768,
+          "hero": 833.1875
+        },
+        {
+          "phase": "hero-1500",
+          "width": 768,
+          "scroll": 768,
+          "hero": 833.1875
+        },
+        {
+          "phase": "menu-opening",
+          "width": 768,
+          "scroll": 768,
+          "hero": 833.1875
+        },
+        {
+          "phase": "#about",
+          "width": 768,
+          "scroll": 768,
+          "hero": 833.1875
+        },
+        {
+          "phase": "#services",
+          "width": 768,
+          "scroll": 768,
+          "hero": 833.1875
+        },
+        {
+          "phase": ".metrics-section",
+          "width": 768,
+          "scroll": 768,
+          "hero": 833.1875
+        },
+        {
+          "phase": "#other-services",
+          "width": 768,
+          "scroll": 768,
+          "hero": 833.1875
+        },
+        {
+          "phase": "#why-kmk",
+          "width": 768,
+          "scroll": 768,
+          "hero": 833.1875
+        },
+        {
+          "phase": "#certification",
+          "width": 768,
+          "scroll": 768,
+          "hero": 833.1875
+        },
+        {
+          "phase": "#blog",
+          "width": 768,
+          "scroll": 768,
+          "hero": 833.1875
+        },
+        {
+          "phase": ".testimonials-section",
+          "width": 768,
+          "scroll": 768,
+          "hero": 833.1875
+        },
+        {
+          "phase": ".partners-section",
+          "width": 768,
+          "scroll": 768,
+          "hero": 833.1875
+        },
+        {
+          "phase": "#faqs",
+          "width": 768,
+          "scroll": 768,
+          "hero": 833.1875
+        },
+        {
+          "phase": "#contact",
+          "width": 768,
+          "scroll": 768,
+          "hero": 833.1875
+        },
+        {
+          "phase": "footer",
+          "width": 768,
+          "scroll": 768,
+          "hero": 833.1875
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "overflow": [],
+      "stableHero": true,
+      "assets": [],
+      "checks": [
+        {
+          "phase": "hero-100",
+          "width": 430,
+          "scroll": 430,
+          "hero": 792.734375
+        },
+        {
+          "phase": "hero-600",
+          "width": 430,
+          "scroll": 430,
+          "hero": 792.734375
+        },
+        {
+          "phase": "hero-1500",
+          "width": 430,
+          "scroll": 430,
+          "hero": 792.734375
+        },
+        {
+          "phase": "menu-opening",
+          "width": 430,
+          "scroll": 430,
+          "hero": 792.734375
+        },
+        {
+          "phase": "#about",
+          "width": 430,
+          "scroll": 430,
+          "hero": 792.734375
+        },
+        {
+          "phase": "#services",
+          "width": 430,
+          "scroll": 430,
+          "hero": 792.734375
+        },
+        {
+          "phase": ".metrics-section",
+          "width": 430,
+          "scroll": 430,
+          "hero": 792.734375
+        },
+        {
+          "phase": "#other-services",
+          "width": 430,
+          "scroll": 430,
+          "hero": 792.734375
+        },
+        {
+          "phase": "#why-kmk",
+          "width": 430,
+          "scroll": 430,
+          "hero": 792.734375
+        },
+        {
+          "phase": "#certification",
+          "width": 430,
+          "scroll": 430,
+          "hero": 792.734375
+        },
+        {
+          "phase": "#blog",
+          "width": 430,
+          "scroll": 430,
+          "hero": 792.734375
+        },
+        {
+          "phase": ".testimonials-section",
+          "width": 430,
+          "scroll": 430,
+          "hero": 792.734375
+        },
+        {
+          "phase": ".partners-section",
+          "width": 430,
+          "scroll": 430,
+          "hero": 792.734375
+        },
+        {
+          "phase": "#faqs",
+          "width": 430,
+          "scroll": 430,
+          "hero": 792.734375
+        },
+        {
+          "phase": "#contact",
+          "width": 430,
+          "scroll": 430,
+          "hero": 792.734375
+        },
+        {
+          "phase": "footer",
+          "width": 430,
+          "scroll": 430,
+          "hero": 792.734375
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "overflow": [],
+      "stableHero": true,
+      "assets": [],
+      "checks": [
+        {
+          "phase": "hero-100",
+          "width": 390,
+          "scroll": 390,
+          "hero": 818.984375
+        },
+        {
+          "phase": "hero-600",
+          "width": 390,
+          "scroll": 390,
+          "hero": 818.984375
+        },
+        {
+          "phase": "hero-1500",
+          "width": 390,
+          "scroll": 390,
+          "hero": 818.984375
+        },
+        {
+          "phase": "menu-opening",
+          "width": 390,
+          "scroll": 390,
+          "hero": 818.984375
+        },
+        {
+          "phase": "#about",
+          "width": 390,
+          "scroll": 390,
+          "hero": 818.984375
+        },
+        {
+          "phase": "#services",
+          "width": 390,
+          "scroll": 390,
+          "hero": 818.984375
+        },
+        {
+          "phase": ".metrics-section",
+          "width": 390,
+          "scroll": 390,
+          "hero": 818.984375
+        },
+        {
+          "phase": "#other-services",
+          "width": 390,
+          "scroll": 390,
+          "hero": 818.984375
+        },
+        {
+          "phase": "#why-kmk",
+          "width": 390,
+          "scroll": 390,
+          "hero": 818.984375
+        },
+        {
+          "phase": "#certification",
+          "width": 390,
+          "scroll": 390,
+          "hero": 818.984375
+        },
+        {
+          "phase": "#blog",
+          "width": 390,
+          "scroll": 390,
+          "hero": 818.984375
+        },
+        {
+          "phase": ".testimonials-section",
+          "width": 390,
+          "scroll": 390,
+          "hero": 818.984375
+        },
+        {
+          "phase": ".partners-section",
+          "width": 390,
+          "scroll": 390,
+          "hero": 818.984375
+        },
+        {
+          "phase": "#faqs",
+          "width": 390,
+          "scroll": 390,
+          "hero": 818.984375
+        },
+        {
+          "phase": "#contact",
+          "width": 390,
+          "scroll": 390,
+          "hero": 818.984375
+        },
+        {
+          "phase": "footer",
+          "width": 390,
+          "scroll": 390,
+          "hero": 818.984375
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "overflow": [],
+      "stableHero": true,
+      "assets": [],
+      "checks": [
+        {
+          "phase": "hero-100",
+          "width": 375,
+          "scroll": 375,
+          "hero": 700.5
+        },
+        {
+          "phase": "hero-600",
+          "width": 375,
+          "scroll": 375,
+          "hero": 700.5
+        },
+        {
+          "phase": "hero-1500",
+          "width": 375,
+          "scroll": 375,
+          "hero": 700.5
+        },
+        {
+          "phase": "menu-opening",
+          "width": 375,
+          "scroll": 375,
+          "hero": 700.5
+        },
+        {
+          "phase": "#about",
+          "width": 375,
+          "scroll": 375,
+          "hero": 700.5
+        },
+        {
+          "phase": "#services",
+          "width": 375,
+          "scroll": 375,
+          "hero": 700.5
+        },
+        {
+          "phase": ".metrics-section",
+          "width": 375,
+          "scroll": 375,
+          "hero": 700.5
+        },
+        {
+          "phase": "#other-services",
+          "width": 375,
+          "scroll": 375,
+          "hero": 700.5
+        },
+        {
+          "phase": "#why-kmk",
+          "width": 375,
+          "scroll": 375,
+          "hero": 700.5
+        },
+        {
+          "phase": "#certification",
+          "width": 375,
+          "scroll": 375,
+          "hero": 700.5
+        },
+        {
+          "phase": "#blog",
+          "width": 375,
+          "scroll": 375,
+          "hero": 700.5
+        },
+        {
+          "phase": ".testimonials-section",
+          "width": 375,
+          "scroll": 375,
+          "hero": 700.5
+        },
+        {
+          "phase": ".partners-section",
+          "width": 375,
+          "scroll": 375,
+          "hero": 700.5
+        },
+        {
+          "phase": "#faqs",
+          "width": 375,
+          "scroll": 375,
+          "hero": 700.5
+        },
+        {
+          "phase": "#contact",
+          "width": 375,
+          "scroll": 375,
+          "hero": 700.5
+        },
+        {
+          "phase": "footer",
+          "width": 375,
+          "scroll": 375,
+          "hero": 700.5
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "overflow": [],
+      "stableHero": true,
+      "assets": [],
+      "checks": [
+        {
+          "phase": "hero-100",
+          "width": 320,
+          "scroll": 320,
+          "hero": 759.25
+        },
+        {
+          "phase": "hero-600",
+          "width": 320,
+          "scroll": 320,
+          "hero": 759.25
+        },
+        {
+          "phase": "hero-1500",
+          "width": 320,
+          "scroll": 320,
+          "hero": 759.25
+        },
+        {
+          "phase": "menu-opening",
+          "width": 320,
+          "scroll": 320,
+          "hero": 759.25
+        },
+        {
+          "phase": "#about",
+          "width": 320,
+          "scroll": 320,
+          "hero": 759.25
+        },
+        {
+          "phase": "#services",
+          "width": 320,
+          "scroll": 320,
+          "hero": 759.25
+        },
+        {
+          "phase": ".metrics-section",
+          "width": 320,
+          "scroll": 320,
+          "hero": 759.25
+        },
+        {
+          "phase": "#other-services",
+          "width": 320,
+          "scroll": 320,
+          "hero": 759.25
+        },
+        {
+          "phase": "#why-kmk",
+          "width": 320,
+          "scroll": 320,
+          "hero": 759.25
+        },
+        {
+          "phase": "#certification",
+          "width": 320,
+          "scroll": 320,
+          "hero": 759.25
+        },
+        {
+          "phase": "#blog",
+          "width": 320,
+          "scroll": 320,
+          "hero": 759.25
+        },
+        {
+          "phase": ".testimonials-section",
+          "width": 320,
+          "scroll": 320,
+          "hero": 759.25
+        },
+        {
+          "phase": ".partners-section",
+          "width": 320,
+          "scroll": 320,
+          "hero": 759.25
+        },
+        {
+          "phase": "#faqs",
+          "width": 320,
+          "scroll": 320,
+          "hero": 759.25
+        },
+        {
+          "phase": "#contact",
+          "width": 320,
+          "scroll": 320,
+          "hero": 759.25
+        },
+        {
+          "phase": "footer",
+          "width": 320,
+          "scroll": 320,
+          "hero": 759.25
+        }
+      ]
+    },
+    {
+      "reducedMotion": true,
+      "noAutoplay": true,
+      "revealsVisible": true,
+      "partnerAnimation": "none"
+    }
+  ],
+  "errors": []
+}

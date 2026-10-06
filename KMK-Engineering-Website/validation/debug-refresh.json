@@ -1,0 +1,46 @@
+{
+  "reducedMotion": false,
+  "errors": [],
+  "hero": [
+    {
+      "opacity": "0",
+      "transform": "matrix(1, 0, 0, 1, 0, 50)"
+    },
+    {
+      "opacity": "0",
+      "transform": "matrix(1, 0, 0, 1, 0, 50)"
+    },
+    {
+      "opacity": "0.61994",
+      "transform": "matrix(1, 0, 0, 1, 0, 18.9422)"
+    },
+    {
+      "opacity": "1",
+      "transform": "none"
+    },
+    {
+      "opacity": "1",
+      "transform": "none"
+    }
+  ],
+  "services": {
+    "animated": 9,
+    "headingAnimation": "none"
+  },
+  "about": {
+    "classes": "motion-entered",
+    "animation": "1.3s cubic-bezier(0.645, 0.045, 0.355, 1) 0.4s both reveal-image",
+    "opacity": "0.0333281"
+  },
+  "testimonialControls": 1,
+  "stats": [
+    "—",
+    "—",
+    "—",
+    "—"
+  ],
+  "logos": {
+    "logo1": "matrix(1, 0, 0, 1, -8.00724, 0)",
+    "logo2": "matrix(1, 0, 0, 1, -36.6712, 0)"
+  }
+}

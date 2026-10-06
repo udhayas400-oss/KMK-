@@ -1,0 +1,22 @@
+{
+  "autoplay": {
+    "start": "Show slide 1",
+    "after": "Show slide 2"
+  },
+  "swipe": "Show slide 3",
+  "paused": "Show slide 3",
+  "logo": {
+    "initial": "matrix(1, 0, 0, 1, -10.0031, 0)",
+    "width": "984px",
+    "duration": "24.6s",
+    "moved": "matrix(1, 0, 0, 1, -50.6827, 0)",
+    "pause": "paused"
+  },
+  "counter": {
+    "offscreen": "0+\n0%\n$0\n[Statistics placeholder]",
+    "during": "547+\n45.3%\n$114\n[Statistics placeholder]",
+    "final": "1,200+\n99.5%\n$250\n[Statistics placeholder]",
+    "repeated": "1,200+\n99.5%\n$250\n[Statistics placeholder]"
+  },
+  "passed": true
+}

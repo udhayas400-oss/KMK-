@@ -1,0 +1,26 @@
+[
+  {
+    "opacity": "0",
+    "transform": "matrix(1, 0, 0, 1, -40, 0)",
+    "clip": "inset(0px 100% 0px 0px)",
+    "class": "motion-entered"
+  },
+  {
+    "opacity": "0.113902",
+    "transform": "matrix(1, 0, 0, 1, -35.4439, 0)",
+    "clip": "inset(0px 88.6098% 0px 0px)",
+    "class": "motion-entered"
+  },
+  {
+    "opacity": "0.895558",
+    "transform": "matrix(1, 0, 0, 1, -4.17766, 0)",
+    "clip": "inset(0px 10.4442% 0px 0px)",
+    "class": "motion-entered"
+  },
+  {
+    "opacity": "1",
+    "transform": "matrix(1, 0, 0, 1, 0, 0)",
+    "clip": "inset(0px 0% 0px 0px)",
+    "class": "motion-entered"
+  }
+]

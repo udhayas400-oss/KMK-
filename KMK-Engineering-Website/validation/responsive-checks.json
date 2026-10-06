@@ -1,0 +1,51 @@
+{
+  "widths": [
+    {
+      "width": 1920,
+      "scrollWidth": 1920,
+      "overflows": []
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflows": []
+    },
+    {
+      "width": 1366,
+      "scrollWidth": 1366,
+      "overflows": []
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "overflows": []
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "overflows": []
+    },
+    {
+      "width": 430,
+      "scrollWidth": 430,
+      "overflows": []
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "overflows": []
+    },
+    {
+      "width": 375,
+      "scrollWidth": 375,
+      "overflows": []
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "overflows": []
+    }
+  ],
+  "consoleErrors": [],
+  "checks": "Dropdowns, anchors, hero navigation and pause, testimonial navigation and pause, blog dialog, FAQ open/close, form validation, placeholder submission, assets, branding, mobile submenu and Escape passed."
+}

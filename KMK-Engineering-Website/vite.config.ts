@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite';
 import { defineConfig } from 'vite';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const port = Number(process.env.PORT ?? 5173);
+const port = Number(process.env.PORT ?? 5180);
 const basePath = process.env.BASE_PATH ?? '/';
 
 export default defineConfig({
@@ -22,11 +22,12 @@ export default defineConfig({
     emptyOutDir: true,
   },
   server: {
-    port: Number.isFinite(port) && port > 0 ? port : 5173,
+    strictPort: true,
+    port: Number.isFinite(port) && port > 0 ? port : 5180,
     host: '0.0.0.0',
   },
   preview: {
-    port: Number.isFinite(port) && port > 0 ? port : 5173,
+    port: Number.isFinite(port) && port > 0 ? port : 5180,
     host: '0.0.0.0',
   },
 });

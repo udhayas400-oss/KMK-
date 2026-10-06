@@ -1,0 +1,313 @@
+{
+  "comparisons": [
+    {
+      "name": "hero",
+      "reference": {
+        "animated": []
+      },
+      "kmk": {
+        "animated": []
+      }
+    },
+    {
+      "name": "about",
+      "reference": {
+        "animated": [
+          {
+            "cls": "p-top-right wow slideInRight",
+            "animation": "slideInRight",
+            "transform": "none",
+            "opacity": "1"
+          },
+          {
+            "cls": "about-image overlay-anim2 img-anim-left wow fadeInLeft",
+            "animation": "1.3s cubic-bezier(0.645, 0.045, 0.355, 1) 0.4s forwards img-anim-left",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1"
+          },
+          {
+            "cls": "p-top-right wow slideInRight",
+            "animation": "slideInRight",
+            "transform": "none",
+            "opacity": "1"
+          },
+          {
+            "cls": "text-inner text-rotate-anim",
+            "animation": "10s linear infinite text-rotate",
+            "transform": "none",
+            "opacity": "1"
+          }
+        ]
+      },
+      "kmk": {
+        "animated": [
+          {
+            "cls": "motion-entered",
+            "animation": "1.3s cubic-bezier(0.645, 0.045, 0.355, 1) 0.4s both reveal-image",
+            "transform": "matrix(1, 0, 0, 1, -40, 0)",
+            "opacity": "0"
+          },
+          {
+            "cls": "motion-entered",
+            "animation": "1s both reveal-right",
+            "transform": "matrix(1, 0, 0, 1, 45.2637, 0)",
+            "opacity": "0.0947255"
+          }
+        ]
+      }
+    },
+    {
+      "name": "services",
+      "reference": {
+        "animated": [
+          {
+            "cls": "shape-mockup jump d-none d-xxl-block",
+            "animation": "7s linear infinite jumpAni",
+            "transform": "matrix(1, 0, 0, 1, 0, -18.6893)",
+            "opacity": "1"
+          }
+        ]
+      },
+      "kmk": {
+        "animated": [
+          {
+            "cls": "section-heading motion-entered",
+            "animation": "1s both reveal-up",
+            "transform": "matrix(1, 0, 0, 1, 0, 72.4559)",
+            "opacity": "0.0943011"
+          },
+          {
+            "cls": "feature-image motion-entered",
+            "animation": "1s both reveal-left",
+            "transform": "matrix(1, 0, 0, 1, -45.2849, 0)",
+            "opacity": "0.0943011"
+          },
+          {
+            "cls": "motion-entered",
+            "animation": "1s both reveal-right",
+            "transform": "matrix(1, 0, 0, 1, 45.2849, 0)",
+            "opacity": "0.0943011"
+          },
+          {
+            "cls": "feature-image",
+            "animation": "none",
+            "transform": "matrix(1, 0, 0, 1, 50, 0)",
+            "opacity": "0"
+          },
+          {
+            "cls": "",
+            "animation": "none",
+            "transform": "matrix(1, 0, 0, 1, -50, 0)",
+            "opacity": "0"
+          },
+          {
+            "cls": "feature-image",
+            "animation": "none",
+            "transform": "matrix(1, 0, 0, 1, -50, 0)",
+            "opacity": "0"
+          },
+          {
+            "cls": "",
+            "animation": "none",
+            "transform": "matrix(1, 0, 0, 1, 50, 0)",
+            "opacity": "0"
+          },
+          {
+            "cls": "feature-image",
+            "animation": "none",
+            "transform": "matrix(1, 0, 0, 1, 50, 0)",
+            "opacity": "0"
+          },
+          {
+            "cls": "",
+            "animation": "none",
+            "transform": "matrix(1, 0, 0, 1, -50, 0)",
+            "opacity": "0"
+          }
+        ]
+      }
+    },
+    {
+      "name": "why",
+      "reference": {
+        "animated": [
+          {
+            "cls": "col-lg-4 col-md-6 col-sm-6 wow fadeInLeft",
+            "animation": "fadeInLeft",
+            "transform": "none",
+            "opacity": "1"
+          },
+          {
+            "cls": "col-lg-4 col-md-6 col-sm-6 wow fadeInUp",
+            "animation": "fadeInUp",
+            "transform": "none",
+            "opacity": "1"
+          },
+          {
+            "cls": "col-lg-4 col-md-6 col-sm-6 wow fadeInRight",
+            "animation": "fadeInRight",
+            "transform": "none",
+            "opacity": "1"
+          }
+        ]
+      },
+      "kmk": {
+        "animated": [
+          {
+            "cls": "section-heading motion-entered",
+            "animation": "1s both reveal-up",
+            "transform": "matrix(1, 0, 0, 1, 0, 59.355)",
+            "opacity": "0.258063"
+          },
+          {
+            "cls": "motion-entered",
+            "animation": "1s both reveal-up",
+            "transform": "matrix(1, 0, 0, 1, 0, 59.355)",
+            "opacity": "0.258063"
+          },
+          {
+            "cls": "motion-entered",
+            "animation": "1s 0.12s both reveal-up",
+            "transform": "matrix(1, 0, 0, 1, 0, 76.2586)",
+            "opacity": "0.0467678"
+          },
+          {
+            "cls": "motion-entered",
+            "animation": "1s 0.24s both reveal-up",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "opacity": "0"
+          },
+          {
+            "cls": "motion-entered",
+            "animation": "1s 0.36s both reveal-up",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "opacity": "0"
+          }
+        ]
+      }
+    },
+    {
+      "name": "blog",
+      "reference": {
+        "animated": []
+      },
+      "kmk": {
+        "animated": [
+          {
+            "cls": "section-heading motion-entered",
+            "animation": "1s both reveal-up",
+            "transform": "matrix(1, 0, 0, 1, 0, 65.1671)",
+            "opacity": "0.185411"
+          },
+          {
+            "cls": "blog-card motion-entered",
+            "animation": "1s both reveal-up",
+            "transform": "matrix(1, 0, 0, 1, 0, 65.1671)",
+            "opacity": "0.185411"
+          },
+          {
+            "cls": "blog-card motion-entered",
+            "animation": "1s 0.12s both reveal-up",
+            "transform": "matrix(1, 0, 0, 1, 0, 78.6789)",
+            "opacity": "0.0165137"
+          },
+          {
+            "cls": "blog-card motion-entered",
+            "animation": "1s 0.24s both reveal-up",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "opacity": "0"
+          }
+        ]
+      }
+    },
+    {
+      "name": "testimonials",
+      "reference": {
+        "animated": []
+      },
+      "kmk": {
+        "animated": [
+          {
+            "cls": "section-heading motion-entered",
+            "animation": "1s both reveal-up",
+            "transform": "matrix(1, 0, 0, 1, 0, 78.49)",
+            "opacity": "0.0188754"
+          }
+        ]
+      }
+    },
+    {
+      "name": "partners",
+      "reference": {
+        "animated": []
+      },
+      "kmk": {
+        "animated": [
+          {
+            "cls": "section-heading motion-entered",
+            "animation": "1s both reveal-up",
+            "transform": "matrix(1, 0, 0, 1, 0, 70.1129)",
+            "opacity": "0.123588"
+          },
+          {
+            "cls": "partner-track",
+            "animation": "30.6s linear infinite partner-seamless",
+            "transform": "matrix(1, 0, 0, 1, -4.70144, 0)",
+            "opacity": "1"
+          }
+        ]
+      }
+    },
+    {
+      "name": "faq",
+      "reference": {
+        "animated": []
+      },
+      "kmk": {
+        "animated": [
+          {
+            "cls": "faq-heading motion-entered",
+            "animation": "1s both reveal-up",
+            "transform": "matrix(1, 0, 0, 1, 0, 72.4516)",
+            "opacity": "0.0943549"
+          }
+        ]
+      }
+    },
+    {
+      "name": "footer",
+      "reference": {
+        "animated": []
+      },
+      "kmk": {
+        "animated": [
+          {
+            "cls": "footer-about motion-entered",
+            "animation": "1s 0.1s both reveal-up",
+            "transform": "matrix(1, 0, 0, 1, 0, 79.357)",
+            "opacity": "0.00803688"
+          },
+          {
+            "cls": "motion-entered",
+            "animation": "1s 0.2s both reveal-up",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "opacity": "0"
+          },
+          {
+            "cls": "motion-entered",
+            "animation": "1s 0.3s both reveal-up",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "opacity": "0"
+          },
+          {
+            "cls": "motion-entered",
+            "animation": "1s 0.4s both reveal-up",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "opacity": "0"
+          }
+        ]
+      }
+    }
+  ],
+  "counter": []
+}

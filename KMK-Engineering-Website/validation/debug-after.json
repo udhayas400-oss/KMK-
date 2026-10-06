@@ -1,0 +1,5388 @@
+{
+  "results": [
+    {
+      "width": 1920,
+      "targets": 44,
+      "samples": [
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.0947532",
+            "transform": "matrix(1, 0, 0, 1, 0, 72.4197)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "mask-left",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, -40, 0)",
+            "animation": "reveal-image"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": true,
+            "opacity": "0.545446"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.802511",
+            "transform": "matrix(1, 0, 0, 1, 9.87446, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.12202",
+            "transform": "matrix(1, 0, 0, 1, 0, 70.2384)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.152366"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.513321",
+            "transform": "matrix(1, 0, 0, 1, -24.3339, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": true,
+            "opacity": "0.513321"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.767192",
+            "transform": "matrix(1, 0, 0, 1, 11.6404, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.122303",
+            "transform": "matrix(1, 0, 0, 1, 43.8849, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.152486"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479941",
+            "transform": "matrix(1, 0, 0, 1, -26.003, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.152612",
+            "transform": "matrix(1, 0, 0, 1, -42.3694, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": true,
+            "opacity": "0.152612"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.513248",
+            "transform": "matrix(1, 0, 0, 1, 24.3376, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.121979",
+            "transform": "matrix(1, 0, 0, 1, 43.9011, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.15232"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479428",
+            "transform": "matrix(1, 0, 0, 1, -26.0286, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.152343",
+            "transform": "matrix(1, 0, 0, 1, 0, 67.8126)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.185233"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.5131",
+            "transform": "matrix(1, 0, 0, 1, -24.345, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.122135",
+            "transform": "matrix(1, 0, 0, 1, 0, 70.2292)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.152549"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.51351",
+            "transform": "matrix(1, 0, 0, 1, 0, 38.9192)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.250243"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.599351",
+            "transform": "matrix(1, 0, 0, 1, 0, 32.0519)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.39386"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.673024",
+            "transform": "matrix(1, 0, 0, 1, 0, 26.1581)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.105405"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.423256",
+            "transform": "matrix(1, 0, 0, 1, 0, 46.1396)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.192309"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.551624",
+            "transform": "matrix(1, 0, 0, 1, 0, 35.8701)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.581862"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.78887",
+            "transform": "matrix(1, 0, 0, 1, 0, 16.8904)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.122275",
+            "transform": "matrix(1, 0, 0, 1, 0, 70.218)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.152513"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.513276",
+            "transform": "matrix(1, 0, 0, 1, 0, 38.9379)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.249978"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.599155",
+            "transform": "matrix(1, 0, 0, 1, 0, 32.0676)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.393818"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.672996",
+            "transform": "matrix(1, 0, 0, 1, 0, 26.1603)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.49331"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.735804",
+            "transform": "matrix(1, 0, 0, 1, 0, 21.1357)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.91592"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.979767",
+            "transform": "matrix(1, 0, 0, 1, -1.01167, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": true,
+            "opacity": "0.979767"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.999851",
+            "transform": "matrix(1, 0, 0, 1, 0.00744595, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.152246",
+            "transform": "matrix(1, 0, 0, 1, 0, 67.8203)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.185333"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.575753",
+            "transform": "matrix(1, 0, 0, 1, 0, 33.9398)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.363577"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.701114",
+            "transform": "matrix(1, 0, 0, 1, 0, 23.9109)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.532744"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.778112",
+            "transform": "matrix(1, 0, 0, 1, 0, 17.7511)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.152615",
+            "transform": "matrix(1, 0, 0, 1, 0, 67.7908)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.152423",
+            "transform": "matrix(1, 0, 0, 1, 0, 67.8062)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.152438",
+            "transform": "matrix(1, 0, 0, 1, 0, 67.8049)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.122102",
+            "transform": "matrix(1, 0, 0, 1, 0, 70.2319)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.152448"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.513339",
+            "transform": "matrix(1, 0, 0, 1, 0, 38.9329)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.00805898",
+            "transform": "matrix(1, 0, 0, 1, 0, 79.3553)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.0948071",
+            "transform": "matrix(1, 0, 0, 1, 0, 72.4154)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.00800234"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.221195",
+            "transform": "matrix(1, 0, 0, 1, 0, 62.3044)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.0707706"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.409188",
+            "transform": "matrix(1, 0, 0, 1, 0, 47.2649)",
+            "animation": "reveal-up"
+          }
+        }
+      ],
+      "stuckHidden": [],
+      "testimonials": {
+        "first": "Show testimonial 3",
+        "second": "Show testimonial 1",
+        "motion": [
+          {
+            "opacity": "0.446244",
+            "transform": "matrix(1, 0, 0, 1, -33.2714, 0)"
+          },
+          {
+            "opacity": "0.553756",
+            "transform": "matrix(1, 0, 0, 1, 26.7286, 0)"
+          }
+        ],
+        "stableHeight": true
+      },
+      "faq": {
+        "faqMid": 78.328125,
+        "faqFinal": 104.75
+      }
+    },
+    {
+      "width": 1440,
+      "targets": 44,
+      "samples": [
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.185294",
+            "transform": "matrix(1, 0, 0, 1, 0, 65.1765)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "mask-left",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, -40, 0)",
+            "animation": "reveal-image"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": true,
+            "opacity": "0.60483"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.802422",
+            "transform": "matrix(1, 0, 0, 1, 9.87889, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.0953205",
+            "transform": "matrix(1, 0, 0, 1, 0, 72.3744)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.122667"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479628",
+            "transform": "matrix(1, 0, 0, 1, -26.0186, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": true,
+            "opacity": "0.479628"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.747944",
+            "transform": "matrix(1, 0, 0, 1, 12.6028, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.151884",
+            "transform": "matrix(1, 0, 0, 1, 42.4058, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.184747"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.512622",
+            "transform": "matrix(1, 0, 0, 1, -24.3689, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.122542",
+            "transform": "matrix(1, 0, 0, 1, -43.8729, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": true,
+            "opacity": "0.152234"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.513118",
+            "transform": "matrix(1, 0, 0, 1, 24.3441, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.152486",
+            "transform": "matrix(1, 0, 0, 1, 42.3757, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.152486"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.513445",
+            "transform": "matrix(1, 0, 0, 1, -24.3277, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.122662",
+            "transform": "matrix(1, 0, 0, 1, 0, 70.1871)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.152175"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.513321",
+            "transform": "matrix(1, 0, 0, 1, -24.3339, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.152297",
+            "transform": "matrix(1, 0, 0, 1, 0, 67.8162)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.185184"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.513447",
+            "transform": "matrix(1, 0, 0, 1, 0, 38.9242)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.28719"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.626986",
+            "transform": "matrix(1, 0, 0, 1, 0, 29.8411)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.430108"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.718686",
+            "transform": "matrix(1, 0, 0, 1, 0, 22.5051)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.133599"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.493118",
+            "transform": "matrix(1, 0, 0, 1, 0, 40.5505)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.264793"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.581629",
+            "transform": "matrix(1, 0, 0, 1, 0, 33.4697)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.610147"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.821461",
+            "transform": "matrix(1, 0, 0, 1, 0, 14.2831)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.00999557",
+            "transform": "matrix(1, 0, 0, 1, 0, 79.2004)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.12219",
+            "transform": "matrix(1, 0, 0, 1, 0, 70.2248)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.151848"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479741",
+            "transform": "matrix(1, 0, 0, 1, 0, 41.6207)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.249422"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.598559",
+            "transform": "matrix(1, 0, 0, 1, 0, 32.1153)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.35539"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.672487",
+            "transform": "matrix(1, 0, 0, 1, 0, 26.201)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.492401"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.735249",
+            "transform": "matrix(1, 0, 0, 1, 0, 21.1801)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.915905"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.97976",
+            "transform": "matrix(1, 0, 0, 1, -1.01199, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": true,
+            "opacity": "0.97976"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.999852",
+            "transform": "matrix(1, 0, 0, 1, 0.00738037, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.121991",
+            "transform": "matrix(1, 0, 0, 1, 0, 70.2407)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.15201"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.480875",
+            "transform": "matrix(1, 0, 0, 1, 0, 41.53)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.249835"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.598875",
+            "transform": "matrix(1, 0, 0, 1, 0, 32.09)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.35581"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.673722",
+            "transform": "matrix(1, 0, 0, 1, 0, 26.1022)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.122076",
+            "transform": "matrix(1, 0, 0, 1, 0, 70.2339)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.152274",
+            "transform": "matrix(1, 0, 0, 1, 0, 67.8181)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.152493",
+            "transform": "matrix(1, 0, 0, 1, 0, 67.8005)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.152425",
+            "transform": "matrix(1, 0, 0, 1, 0, 67.806)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.185457"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.513248",
+            "transform": "matrix(1, 0, 0, 1, 0, 38.9401)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.0190768",
+            "transform": "matrix(1, 0, 0, 1, 0, 78.4739)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.0946932",
+            "transform": "matrix(1, 0, 0, 1, 0, 72.4245)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.00796049"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.220384",
+            "transform": "matrix(1, 0, 0, 1, 0, 62.3693)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.0706717"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.408142",
+            "transform": "matrix(1, 0, 0, 1, 0, 47.3487)",
+            "animation": "reveal-up"
+          }
+        }
+      ],
+      "stuckHidden": [],
+      "testimonials": {
+        "first": "Show testimonial 3",
+        "second": "Show testimonial 1",
+        "motion": [
+          {
+            "opacity": "0.438275",
+            "transform": "matrix(1, 0, 0, 1, -33.8119, 0)"
+          },
+          {
+            "opacity": "0.561725",
+            "transform": "matrix(1, 0, 0, 1, 26.1881, 0)"
+          }
+        ],
+        "stableHeight": true
+      },
+      "faq": {
+        "faqMid": 76.1875,
+        "faqFinal": 104.75
+      }
+    },
+    {
+      "width": 1366,
+      "targets": 44,
+      "samples": [
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.0949688",
+            "transform": "matrix(1, 0, 0, 1, 0, 72.4025)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "mask-left",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, -40, 0)",
+            "animation": "reveal-image"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": true,
+            "opacity": "0.479776"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.74787",
+            "transform": "matrix(1, 0, 0, 1, 12.6065, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.121548",
+            "transform": "matrix(1, 0, 0, 1, 0, 70.2761)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.151838"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479175",
+            "transform": "matrix(1, 0, 0, 1, -26.0412, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": true,
+            "opacity": "0.512842"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.747481",
+            "transform": "matrix(1, 0, 0, 1, 12.626, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.0947409",
+            "transform": "matrix(1, 0, 0, 1, 45.263, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.121963"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479472",
+            "transform": "matrix(1, 0, 0, 1, -26.0264, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.12223",
+            "transform": "matrix(1, 0, 0, 1, -43.8885, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": true,
+            "opacity": "0.152272"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.4802",
+            "transform": "matrix(1, 0, 0, 1, 25.99, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.151428",
+            "transform": "matrix(1, 0, 0, 1, 42.4286, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.151428"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.511955",
+            "transform": "matrix(1, 0, 0, 1, -24.4022, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.121915",
+            "transform": "matrix(1, 0, 0, 1, 0, 70.2468)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.152059"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479558",
+            "transform": "matrix(1, 0, 0, 1, -26.0221, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.122244",
+            "transform": "matrix(1, 0, 0, 1, 0, 70.2205)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.152478"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.513437",
+            "transform": "matrix(1, 0, 0, 1, 0, 38.925)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.287634"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.599807",
+            "transform": "matrix(1, 0, 0, 1, 0, 32.0154)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.394001"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.696768",
+            "transform": "matrix(1, 0, 0, 1, 0, 24.2586)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.13367"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.4934",
+            "transform": "matrix(1, 0, 0, 1, 0, 40.528)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.265029"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.61038",
+            "transform": "matrix(1, 0, 0, 1, 0, 31.1696)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.637366"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.821681",
+            "transform": "matrix(1, 0, 0, 1, 0, 14.2655)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.00142879",
+            "transform": "matrix(1, 0, 0, 1, 0, 79.8857)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.122064",
+            "transform": "matrix(1, 0, 0, 1, 0, 70.2349)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.152471"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.513626",
+            "transform": "matrix(1, 0, 0, 1, 0, 38.9099)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.250375"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.599118",
+            "transform": "matrix(1, 0, 0, 1, 0, 32.0706)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.393769"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.67311",
+            "transform": "matrix(1, 0, 0, 1, 0, 26.1512)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.493266"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.755702",
+            "transform": "matrix(1, 0, 0, 1, 0, 19.5438)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.906348"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.975667",
+            "transform": "matrix(1, 0, 0, 1, -1.21665, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": true,
+            "opacity": "0.979763"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.999409",
+            "transform": "matrix(1, 0, 0, 1, 0.0295309, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.122582",
+            "transform": "matrix(1, 0, 0, 1, 0, 70.1934)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.152469"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.513427",
+            "transform": "matrix(1, 0, 0, 1, 0, 38.9258)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.287773"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.599392",
+            "transform": "matrix(1, 0, 0, 1, 0, 32.0486)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.393989"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.673103",
+            "transform": "matrix(1, 0, 0, 1, 0, 26.1518)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.152394",
+            "transform": "matrix(1, 0, 0, 1, 0, 67.8084)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.151926",
+            "transform": "matrix(1, 0, 0, 1, 0, 67.8459)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.123092",
+            "transform": "matrix(1, 0, 0, 1, 0, 70.1526)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.122015",
+            "transform": "matrix(1, 0, 0, 1, 0, 70.2388)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.151914"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.512976",
+            "transform": "matrix(1, 0, 0, 1, 0, 38.9619)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.0189484",
+            "transform": "matrix(1, 0, 0, 1, 0, 78.4841)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.094992",
+            "transform": "matrix(1, 0, 0, 1, 0, 72.4006)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.00824092"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.257242",
+            "transform": "matrix(1, 0, 0, 1, 0, 59.4207)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.0706636"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.40857",
+            "transform": "matrix(1, 0, 0, 1, 0, 47.3144)",
+            "animation": "reveal-up"
+          }
+        }
+      ],
+      "stuckHidden": [],
+      "testimonials": {
+        "first": "Show testimonial 3",
+        "second": "Show testimonial 1",
+        "motion": [
+          {
+            "opacity": "0.378042",
+            "transform": "matrix(1, 0, 0, 1, -37.5946, 0)"
+          },
+          {
+            "opacity": "0.621958",
+            "transform": "matrix(1, 0, 0, 1, 22.4054, 0)"
+          }
+        ],
+        "stableHeight": true
+      },
+      "faq": {
+        "faqMid": 62.203125,
+        "faqFinal": 78.5
+      }
+    },
+    {
+      "width": 1024,
+      "targets": 44,
+      "samples": [
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "1"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "mask-left",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, -40, 0)",
+            "animation": "reveal-image"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": true,
+            "opacity": "0.575789"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.785411",
+            "transform": "matrix(1, 0, 0, 1, 10.7294, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.0947701",
+            "transform": "matrix(1, 0, 0, 1, 0, 72.4184)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.122048"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479717",
+            "transform": "matrix(1, 0, 0, 1, -26.0142, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": true,
+            "opacity": "0.479717"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.747836",
+            "transform": "matrix(1, 0, 0, 1, 12.6082, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.0946424",
+            "transform": "matrix(1, 0, 0, 1, 45.2679, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.121853"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.444751",
+            "transform": "matrix(1, 0, 0, 1, -27.7625, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.0947994",
+            "transform": "matrix(1, 0, 0, 1, -45.26, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": true,
+            "opacity": "0.122029"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479756",
+            "transform": "matrix(1, 0, 0, 1, 26.0122, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.0947332",
+            "transform": "matrix(1, 0, 0, 1, 45.2633, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.122128"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.444663",
+            "transform": "matrix(1, 0, 0, 1, -27.7669, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.152385",
+            "transform": "matrix(1, 0, 0, 1, 0, 67.8092)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.152385"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.513341",
+            "transform": "matrix(1, 0, 0, 1, -24.333, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.152778",
+            "transform": "matrix(1, 0, 0, 1, 0, 67.7778)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.18529"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.545279",
+            "transform": "matrix(1, 0, 0, 1, 0, 36.3777)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.325698"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.6529",
+            "transform": "matrix(1, 0, 0, 1, 0, 27.768)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.465814"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.718883",
+            "transform": "matrix(1, 0, 0, 1, 0, 22.4893)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.165281"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.493416",
+            "transform": "matrix(1, 0, 0, 1, 0, 40.5267)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.26521"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.610624",
+            "transform": "matrix(1, 0, 0, 1, 0, 31.1501)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.610624"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.821632",
+            "transform": "matrix(1, 0, 0, 1, 0, 14.2695)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.152408",
+            "transform": "matrix(1, 0, 0, 1, 0, 67.8074)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.185508"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.513364",
+            "transform": "matrix(1, 0, 0, 1, 0, 38.9308)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.28755"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.626979",
+            "transform": "matrix(1, 0, 0, 1, 0, 29.8417)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.393918"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.696442",
+            "transform": "matrix(1, 0, 0, 1, 0, 24.2847)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.526241"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.755664",
+            "transform": "matrix(1, 0, 0, 1, 0, 19.5469)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.915913"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.97974",
+            "transform": "matrix(1, 0, 0, 1, -1.013, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": true,
+            "opacity": "0.97974"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.999851",
+            "transform": "matrix(1, 0, 0, 1, 0.00745766, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.12219",
+            "transform": "matrix(1, 0, 0, 1, 0, 70.2248)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.15261"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.513376",
+            "transform": "matrix(1, 0, 0, 1, 0, 38.9299)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.250091"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.599348",
+            "transform": "matrix(1, 0, 0, 1, 0, 32.0522)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.393931"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.672869",
+            "transform": "matrix(1, 0, 0, 1, 0, 26.1704)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.15205",
+            "transform": "matrix(1, 0, 0, 1, 0, 67.836)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.152179",
+            "transform": "matrix(1, 0, 0, 1, 0, 67.8257)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.122065",
+            "transform": "matrix(1, 0, 0, 1, 0, 70.2348)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.12206",
+            "transform": "matrix(1, 0, 0, 1, 0, 70.2352)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.1526"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479859",
+            "transform": "matrix(1, 0, 0, 1, 0, 41.6113)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.00802498",
+            "transform": "matrix(1, 0, 0, 1, 0, 79.358)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.0948687",
+            "transform": "matrix(1, 0, 0, 1, 0, 72.4105)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "1.88106e-05"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.220631",
+            "transform": "matrix(1, 0, 0, 1, 0, 62.3495)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.0706904"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.371065",
+            "transform": "matrix(1, 0, 0, 1, 0, 50.3148)",
+            "animation": "reveal-up"
+          }
+        }
+      ],
+      "stuckHidden": [],
+      "testimonials": {
+        "first": "Show testimonial 3",
+        "second": "Show testimonial 1",
+        "motion": [
+          {
+            "opacity": "0.469504",
+            "transform": "matrix(1, 0, 0, 1, -31.9785, 0)"
+          },
+          {
+            "opacity": "0.530496",
+            "transform": "matrix(1, 0, 0, 1, 28.0215, 0)"
+          }
+        ],
+        "stableHeight": true
+      },
+      "faq": {
+        "faqMid": 72.4375,
+        "faqFinal": 104.75
+      }
+    },
+    {
+      "width": 768,
+      "targets": 44,
+      "samples": [
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.152314",
+            "transform": "matrix(1, 0, 0, 1, 0, 67.8148)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "mask-left",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, -40, 0)",
+            "animation": "reveal-image"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": true,
+            "opacity": "0.122038"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479906",
+            "transform": "matrix(1, 0, 0, 1, 26.0047, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.0947301",
+            "transform": "matrix(1, 0, 0, 1, 0, 72.4216)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.122124"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479931",
+            "transform": "matrix(1, 0, 0, 1, -26.0035, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": true,
+            "opacity": "0.152124"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479431",
+            "transform": "matrix(1, 0, 0, 1, 26.0285, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": true,
+            "opacity": "0.152402"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479723",
+            "transform": "matrix(1, 0, 0, 1, 26.0139, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.094687"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.444676",
+            "transform": "matrix(1, 0, 0, 1, -27.7662, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.0947963"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.444678",
+            "transform": "matrix(1, 0, 0, 1, -27.7661, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": true,
+            "opacity": "0.151557"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.44392",
+            "transform": "matrix(1, 0, 0, 1, 27.804, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": true,
+            "opacity": "0.0948102"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.444847",
+            "transform": "matrix(1, 0, 0, 1, 27.7577, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.122126"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.444879",
+            "transform": "matrix(1, 0, 0, 1, -27.7561, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.122195",
+            "transform": "matrix(1, 0, 0, 1, 0, 70.2244)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.152429"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.513583",
+            "transform": "matrix(1, 0, 0, 1, -24.3209, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.151842",
+            "transform": "matrix(1, 0, 0, 1, 0, 67.8526)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.185104"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.512976",
+            "transform": "matrix(1, 0, 0, 1, 0, 38.9619)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.286874"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.626499",
+            "transform": "matrix(1, 0, 0, 1, 0, 29.8801)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.0429721"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.356153",
+            "transform": "matrix(1, 0, 0, 1, 0, 51.5077)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.133928"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.459326",
+            "transform": "matrix(1, 0, 0, 1, 0, 43.2539)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.192499",
+            "transform": "matrix(1, 0, 0, 1, 0, 64.6001)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.121856"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479756",
+            "transform": "matrix(1, 0, 0, 1, 0, 41.6195)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.152299"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479817",
+            "transform": "matrix(1, 0, 0, 1, 0, 41.6146)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.249728"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.570011",
+            "transform": "matrix(1, 0, 0, 1, 0, 34.3991)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.355928"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.672979",
+            "transform": "matrix(1, 0, 0, 1, 0, 26.1617)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.458987"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.735666",
+            "transform": "matrix(1, 0, 0, 1, 0, 21.1467)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.513374"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.74777",
+            "transform": "matrix(1, 0, 0, 1, -12.6115, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.152417",
+            "transform": "matrix(1, 0, 0, 1, 42.3791, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.152726",
+            "transform": "matrix(1, 0, 0, 1, 0, 67.7819)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.152726"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479867",
+            "transform": "matrix(1, 0, 0, 1, 0, 41.6106)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.177998",
+            "transform": "matrix(1, 0, 0, 1, 0, 65.7602)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.0142592",
+            "transform": "matrix(1, 0, 0, 1, 0, 78.8593)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.152486",
+            "transform": "matrix(1, 0, 0, 1, 0, 67.8011)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.152381",
+            "transform": "matrix(1, 0, 0, 1, 0, 67.8095)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.152198",
+            "transform": "matrix(1, 0, 0, 1, 0, 67.8242)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.122261",
+            "transform": "matrix(1, 0, 0, 1, 0, 70.2191)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.152497"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.513457",
+            "transform": "matrix(1, 0, 0, 1, 0, 38.9234)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.0189037",
+            "transform": "matrix(1, 0, 0, 1, 0, 78.4877)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.0708965",
+            "transform": "matrix(1, 0, 0, 1, 0, 74.3283)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "4.37962e-07"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.185664",
+            "transform": "matrix(1, 0, 0, 1, 0, 65.1469)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.0501244"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.333432",
+            "transform": "matrix(1, 0, 0, 1, 0, 53.3255)",
+            "animation": "reveal-up"
+          }
+        }
+      ],
+      "stuckHidden": [],
+      "testimonials": {
+        "first": "Show testimonial 3",
+        "second": "Show testimonial 1",
+        "motion": [
+          {
+            "opacity": "0.478203",
+            "transform": "matrix(1, 0, 0, 1, -31.3934, 0)"
+          },
+          {
+            "opacity": "0.521797",
+            "transform": "matrix(1, 0, 0, 1, 28.6066, 0)"
+          }
+        ],
+        "stableHeight": true
+      },
+      "faq": {
+        "faqMid": 79.15625,
+        "faqFinal": 104.75
+      }
+    },
+    {
+      "width": 430,
+      "targets": 44,
+      "samples": [
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.120797",
+            "transform": "matrix(1, 0, 0, 1, 0, 70.3362)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "mask-left",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, -40, 0)",
+            "animation": "reveal-image"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": true,
+            "opacity": "0.12197"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.444836",
+            "transform": "matrix(1, 0, 0, 1, 27.7582, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.152442",
+            "transform": "matrix(1, 0, 0, 1, 0, 67.8046)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.152442"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.513459",
+            "transform": "matrix(1, 0, 0, 1, -24.3271, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": true,
+            "opacity": "0.122036"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.445063",
+            "transform": "matrix(1, 0, 0, 1, 27.7469, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": true,
+            "opacity": "0.0947116"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.407947",
+            "transform": "matrix(1, 0, 0, 1, 29.6026, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.122225"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479577",
+            "transform": "matrix(1, 0, 0, 1, -26.0212, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.094209"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.444288",
+            "transform": "matrix(1, 0, 0, 1, -27.7856, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": true,
+            "opacity": "0.152419"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.444676",
+            "transform": "matrix(1, 0, 0, 1, 27.7662, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": true,
+            "opacity": "0.0947917"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.4085",
+            "transform": "matrix(1, 0, 0, 1, 29.575, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.0947132"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.444712",
+            "transform": "matrix(1, 0, 0, 1, -27.7644, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.121697",
+            "transform": "matrix(1, 0, 0, 1, 0, 70.2643)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.121697"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.444139",
+            "transform": "matrix(1, 0, 0, 1, -27.7931, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.122067"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.444956",
+            "transform": "matrix(1, 0, 0, 1, 0, 44.4035)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.122078"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.444755",
+            "transform": "matrix(1, 0, 0, 1, 0, 44.4196)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.213564",
+            "transform": "matrix(1, 0, 0, 1, 0, 62.9149)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.0270031",
+            "transform": "matrix(1, 0, 0, 1, 0, 77.8398)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.152459"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.47999",
+            "transform": "matrix(1, 0, 0, 1, 0, 41.6008)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.152267"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479782",
+            "transform": "matrix(1, 0, 0, 1, 0, 41.6174)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.249913"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.569981",
+            "transform": "matrix(1, 0, 0, 1, 0, 34.4016)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.0429384"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.356308",
+            "transform": "matrix(1, 0, 0, 1, 0, 51.4954)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.105434"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.459128",
+            "transform": "matrix(1, 0, 0, 1, 0, 43.2697)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.545177"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.767037",
+            "transform": "matrix(1, 0, 0, 1, -11.6481, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": true,
+            "opacity": "0.152429"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.513189",
+            "transform": "matrix(1, 0, 0, 1, 24.3405, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.122048",
+            "transform": "matrix(1, 0, 0, 1, 0, 70.2362)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.152263"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479778",
+            "transform": "matrix(1, 0, 0, 1, 0, 41.6177)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.00615024"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.250089",
+            "transform": "matrix(1, 0, 0, 1, 0, 59.9929)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.0270538",
+            "transform": "matrix(1, 0, 0, 1, 0, 77.8357)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.152242"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.513051",
+            "transform": "matrix(1, 0, 0, 1, 0, 38.9559)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.152236",
+            "transform": "matrix(1, 0, 0, 1, 0, 67.8211)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.152337",
+            "transform": "matrix(1, 0, 0, 1, 0, 67.813)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.122131",
+            "transform": "matrix(1, 0, 0, 1, 0, 70.2295)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.152484"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479947",
+            "transform": "matrix(1, 0, 0, 1, 0, 41.6042)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.00809982",
+            "transform": "matrix(1, 0, 0, 1, 0, 79.352)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.094918",
+            "transform": "matrix(1, 0, 0, 1, 0, 72.4066)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "3.16299e-05"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.2207",
+            "transform": "matrix(1, 0, 0, 1, 0, 62.344)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.0708978",
+            "transform": "matrix(1, 0, 0, 1, 0, 74.3282)",
+            "animation": "reveal-up"
+          }
+        }
+      ],
+      "stuckHidden": [],
+      "testimonials": {
+        "first": "Show testimonial 3",
+        "second": "Show testimonial 1",
+        "motion": [
+          {
+            "opacity": "0.419404",
+            "transform": "matrix(1, 0, 0, 1, -35.0959, 0)"
+          },
+          {
+            "opacity": "0.580596",
+            "transform": "matrix(1, 0, 0, 1, 24.9041, 0)"
+          }
+        ],
+        "stableHeight": true
+      },
+      "faq": {
+        "faqMid": 106.5625,
+        "faqFinal": 142.5
+      }
+    },
+    {
+      "width": 390,
+      "targets": 44,
+      "samples": [
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.152591",
+            "transform": "matrix(1, 0, 0, 1, 0, 67.7927)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "mask-left",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, -40, 0)",
+            "animation": "reveal-image"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": true,
+            "opacity": "0.152307"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479892",
+            "transform": "matrix(1, 0, 0, 1, 26.0054, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.12222",
+            "transform": "matrix(1, 0, 0, 1, 0, 70.2224)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.12222"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.47964",
+            "transform": "matrix(1, 0, 0, 1, -26.018, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": true,
+            "opacity": "0.122026"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.445405",
+            "transform": "matrix(1, 0, 0, 1, 27.7297, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.0965485",
+            "transform": "matrix(1, 0, 0, 1, 45.1726, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.12191"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.444689",
+            "transform": "matrix(1, 0, 0, 1, -27.7656, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.152431",
+            "transform": "matrix(1, 0, 0, 1, -42.3785, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": true,
+            "opacity": "0.152431"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.513388",
+            "transform": "matrix(1, 0, 0, 1, 24.3306, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.121702",
+            "transform": "matrix(1, 0, 0, 1, 43.9149, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.151947"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479437",
+            "transform": "matrix(1, 0, 0, 1, -26.0282, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.121915",
+            "transform": "matrix(1, 0, 0, 1, 0, 70.2468)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.152242"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.545254",
+            "transform": "matrix(1, 0, 0, 1, -22.7373, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.152328"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.513479",
+            "transform": "matrix(1, 0, 0, 1, 0, 38.9217)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.122131"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479671",
+            "transform": "matrix(1, 0, 0, 1, 0, 41.6263)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.00611256"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.212963",
+            "transform": "matrix(1, 0, 0, 1, 0, 62.963)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.0142787",
+            "transform": "matrix(1, 0, 0, 1, 0, 78.8577)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.121398"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.478798",
+            "transform": "matrix(1, 0, 0, 1, 0, 41.6961)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.152187"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.513727",
+            "transform": "matrix(1, 0, 0, 1, 0, 38.9019)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.250489"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.599034",
+            "transform": "matrix(1, 0, 0, 1, 0, 32.0773)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.0428561"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.318693",
+            "transform": "matrix(1, 0, 0, 1, 0, 54.5045)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.105308"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.423779",
+            "transform": "matrix(1, 0, 0, 1, 0, 46.0977)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.513095"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.767175",
+            "transform": "matrix(1, 0, 0, 1, -11.6412, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": true,
+            "opacity": "0.151614"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.512543",
+            "transform": "matrix(1, 0, 0, 1, 24.3729, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.121986",
+            "transform": "matrix(1, 0, 0, 1, 0, 70.2411)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.152194"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.513341",
+            "transform": "matrix(1, 0, 0, 1, 0, 38.9327)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.00615662"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.24967",
+            "transform": "matrix(1, 0, 0, 1, 0, 60.0264)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.0270082",
+            "transform": "matrix(1, 0, 0, 1, 0, 77.8393)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.151981"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.480087",
+            "transform": "matrix(1, 0, 0, 1, 0, 41.593)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.152208",
+            "transform": "matrix(1, 0, 0, 1, 0, 67.8234)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.152421",
+            "transform": "matrix(1, 0, 0, 1, 0, 67.8063)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.152274",
+            "transform": "matrix(1, 0, 0, 1, 0, 67.8181)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.185294"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.513754",
+            "transform": "matrix(1, 0, 0, 1, 0, 38.8997)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.0191876",
+            "transform": "matrix(1, 0, 0, 1, 0, 78.465)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.0707359",
+            "transform": "matrix(1, 0, 0, 1, 0, 74.3411)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.185828",
+            "transform": "matrix(1, 0, 0, 1, 0, 65.1337)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.0328468",
+            "transform": "matrix(1, 0, 0, 1, 0, 77.3723)",
+            "animation": "reveal-up"
+          }
+        }
+      ],
+      "stuckHidden": [],
+      "testimonials": {
+        "first": "Show testimonial 3",
+        "second": "Show testimonial 1",
+        "motion": [
+          {
+            "opacity": "0.421766",
+            "transform": "matrix(1, 0, 0, 1, -35.2609, 0)"
+          },
+          {
+            "opacity": "0.578234",
+            "transform": "matrix(1, 0, 0, 1, 24.7391, 0)"
+          }
+        ],
+        "stableHeight": true
+      },
+      "faq": {
+        "faqMid": 126.21875,
+        "faqFinal": 167
+      }
+    },
+    {
+      "width": 375,
+      "targets": 44,
+      "samples": [
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.153406",
+            "transform": "matrix(1, 0, 0, 1, 0, 67.7275)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "mask-left",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, -40, 0)",
+            "animation": "reveal-image"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": true,
+            "opacity": "0.121856"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.444622",
+            "transform": "matrix(1, 0, 0, 1, 27.7689, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.152547",
+            "transform": "matrix(1, 0, 0, 1, 0, 67.7962)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.152547"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.513508",
+            "transform": "matrix(1, 0, 0, 1, -24.3246, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": true,
+            "opacity": "0.121718"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479385",
+            "transform": "matrix(1, 0, 0, 1, 26.0307, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.0949257",
+            "transform": "matrix(1, 0, 0, 1, 45.2537, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.121939"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.444584",
+            "transform": "matrix(1, 0, 0, 1, -27.7708, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.122015"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479603",
+            "transform": "matrix(1, 0, 0, 1, -26.0198, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": true,
+            "opacity": "0.0942781"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.444248",
+            "transform": "matrix(1, 0, 0, 1, 27.7876, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.122199",
+            "transform": "matrix(1, 0, 0, 1, 43.8901, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.152371"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479756",
+            "transform": "matrix(1, 0, 0, 1, -26.0122, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.152231",
+            "transform": "matrix(1, 0, 0, 1, 0, 67.8216)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.152231"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.513181",
+            "transform": "matrix(1, 0, 0, 1, -24.3409, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.152627"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479966",
+            "transform": "matrix(1, 0, 0, 1, 0, 41.6027)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.15229"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479601",
+            "transform": "matrix(1, 0, 0, 1, 0, 41.6319)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.00616246"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.250065",
+            "transform": "matrix(1, 0, 0, 1, 0, 59.9948)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.0143333",
+            "transform": "matrix(1, 0, 0, 1, 0, 78.8533)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.152219"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479525",
+            "transform": "matrix(1, 0, 0, 1, 0, 41.638)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.152432"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479756",
+            "transform": "matrix(1, 0, 0, 1, 0, 41.6195)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.213493"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.570497",
+            "transform": "matrix(1, 0, 0, 1, 0, 34.3602)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.0429626"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.318467",
+            "transform": "matrix(1, 0, 0, 1, 0, 54.5227)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.105413",
+            "transform": "matrix(1, 0, 0, 1, 0, 71.5669)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.122078"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479813",
+            "transform": "matrix(1, 0, 0, 1, -26.0093, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": true,
+            "opacity": "0.152246"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479966",
+            "transform": "matrix(1, 0, 0, 1, 26.0017, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.122948",
+            "transform": "matrix(1, 0, 0, 1, 0, 70.1641)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.15249"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.513449",
+            "transform": "matrix(1, 0, 0, 1, 0, 38.9241)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.213412",
+            "transform": "matrix(1, 0, 0, 1, 0, 62.9271)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.0270391",
+            "transform": "matrix(1, 0, 0, 1, 0, 77.8369)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.152412"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.513171",
+            "transform": "matrix(1, 0, 0, 1, 0, 38.9463)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.151871",
+            "transform": "matrix(1, 0, 0, 1, 0, 67.8503)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.151914",
+            "transform": "matrix(1, 0, 0, 1, 0, 67.8468)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.122688",
+            "transform": "matrix(1, 0, 0, 1, 0, 70.185)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.153092"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479579",
+            "transform": "matrix(1, 0, 0, 1, 0, 41.6337)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.018481",
+            "transform": "matrix(1, 0, 0, 1, 0, 78.5215)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.0941246",
+            "transform": "matrix(1, 0, 0, 1, 0, 72.47)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.00765909"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.21944",
+            "transform": "matrix(1, 0, 0, 1, 0, 62.4448)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.0332855",
+            "transform": "matrix(1, 0, 0, 1, 0, 77.3372)",
+            "animation": "reveal-up"
+          }
+        }
+      ],
+      "stuckHidden": [],
+      "testimonials": {
+        "first": "Show testimonial 3",
+        "second": "Show testimonial 1",
+        "motion": [
+          {
+            "opacity": "0.483737",
+            "transform": "matrix(1, 0, 0, 1, -31.1842, 0)"
+          },
+          {
+            "opacity": "0.516263",
+            "transform": "matrix(1, 0, 0, 1, 28.8158, 0)"
+          }
+        ],
+        "stableHeight": true
+      },
+      "faq": {
+        "faqMid": 123.546875,
+        "faqFinal": 167
+      }
+    },
+    {
+      "width": 320,
+      "targets": 44,
+      "samples": [
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.185491",
+            "transform": "matrix(1, 0, 0, 1, 0, 65.1607)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "mask-left",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, -40, 0)",
+            "animation": "reveal-image"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": true,
+            "opacity": "0.152071"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.480052",
+            "transform": "matrix(1, 0, 0, 1, 25.9974, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.12265",
+            "transform": "matrix(1, 0, 0, 1, 0, 70.188)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.15305"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.513638",
+            "transform": "matrix(1, 0, 0, 1, -24.3181, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": true,
+            "opacity": "0.122415"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479667",
+            "transform": "matrix(1, 0, 0, 1, 26.0166, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.121726",
+            "transform": "matrix(1, 0, 0, 1, 43.9137, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.151528"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.478984",
+            "transform": "matrix(1, 0, 0, 1, -26.0508, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.121249",
+            "transform": "matrix(1, 0, 0, 1, -43.9375, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": true,
+            "opacity": "0.151384"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479239",
+            "transform": "matrix(1, 0, 0, 1, 26.038, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.1215",
+            "transform": "matrix(1, 0, 0, 1, 43.925, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.1215"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479332",
+            "transform": "matrix(1, 0, 0, 1, -26.0334, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.1227",
+            "transform": "matrix(1, 0, 0, 1, 0, 70.184)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.152286"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479597",
+            "transform": "matrix(1, 0, 0, 1, -26.0201, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.121488"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.480141",
+            "transform": "matrix(1, 0, 0, 1, 0, 41.5888)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.151545"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479002",
+            "transform": "matrix(1, 0, 0, 1, 0, 41.6798)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.0062231"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.249949",
+            "transform": "matrix(1, 0, 0, 1, 0, 60.0041)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.0427908",
+            "transform": "matrix(1, 0, 0, 1, 0, 76.5767)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 80)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.152427"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.51299",
+            "transform": "matrix(1, 0, 0, 1, 0, 38.9608)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.121546"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479799",
+            "transform": "matrix(1, 0, 0, 1, 0, 41.6161)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.00583762"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.248323",
+            "transform": "matrix(1, 0, 0, 1, 0, 60.1342)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.0612437"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.354269",
+            "transform": "matrix(1, 0, 0, 1, 0, 51.6585)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.0807936",
+            "transform": "matrix(1, 0, 0, 1, 0, 73.5365)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "left",
+            "entered": true,
+            "opacity": "0.152261"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.479982",
+            "transform": "matrix(1, 0, 0, 1, -26.0009, 0)",
+            "animation": "reveal-left"
+          }
+        },
+        {
+          "before": {
+            "profile": "right",
+            "entered": true,
+            "opacity": "0.15233"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.513284",
+            "transform": "matrix(1, 0, 0, 1, 24.3358, 0)",
+            "animation": "reveal-right"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.152518",
+            "transform": "matrix(1, 0, 0, 1, 0, 67.7985)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.185422"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.514069",
+            "transform": "matrix(1, 0, 0, 1, 0, 38.8745)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.00620819"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.21414",
+            "transform": "matrix(1, 0, 0, 1, 0, 62.8688)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.0427202",
+            "transform": "matrix(1, 0, 0, 1, 0, 76.5824)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.152065"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.47963",
+            "transform": "matrix(1, 0, 0, 1, 0, 41.6296)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.121645",
+            "transform": "matrix(1, 0, 0, 1, 0, 70.2684)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.122441",
+            "transform": "matrix(1, 0, 0, 1, 0, 70.2047)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.152335",
+            "transform": "matrix(1, 0, 0, 1, 0, 67.8132)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0.185225"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.513679",
+            "transform": "matrix(1, 0, 0, 1, 0, 38.9056)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": false,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.00832371",
+            "transform": "matrix(1, 0, 0, 1, 0, 79.3341)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.0947532",
+            "transform": "matrix(1, 0, 0, 1, 0, 72.4197)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.220685",
+            "transform": "matrix(1, 0, 0, 1, 0, 62.3452)",
+            "animation": "reveal-up"
+          }
+        },
+        {
+          "before": {
+            "profile": "up",
+            "entered": true,
+            "opacity": "0"
+          },
+          "during": {
+            "entered": true,
+            "opacity": "0.0506736",
+            "transform": "matrix(1, 0, 0, 1, 0, 75.9461)",
+            "animation": "reveal-up"
+          }
+        }
+      ],
+      "stuckHidden": [],
+      "testimonials": {
+        "first": "Show testimonial 3",
+        "second": "Show testimonial 1",
+        "motion": [
+          {
+            "opacity": "0.425625",
+            "transform": "matrix(1, 0, 0, 1, -34.5584, 0)"
+          },
+          {
+            "opacity": "0.574375",
+            "transform": "matrix(1, 0, 0, 1, 25.4416, 0)"
+          }
+        ],
+        "stableHeight": true
+      },
+      "faq": {
+        "faqMid": 164.03125,
+        "faqFinal": 216
+      }
+    }
+  ],
+  "errors": [],
+  "reducedVisible": true
+}

@@ -1,23 +1,27 @@
 import { useEffect, useRef, useState } from 'react';
 import { useReducedMotion } from 'framer-motion';
+import { motionTiming } from '../../lib/animation';
 
 export function AnimatedValue({ value }: { value: string }) {
   const valueRef = useRef<HTMLSpanElement>(null);
   const reduced = useReducedMotion();
-  const numberMatch = value.includes('[') ? null : value.match(/^\d[\d,]*/);
+  const numberMatch = value.includes('[') ? null : value.match(/\d[\d,]*(?:\.\d+)?/);
   const target = numberMatch ? Number(numberMatch[0].replace(/,/g, '')) : null;
   const [count, setCount] = useState(0);
+  const completed = useRef<string | null>(null);
 
   useEffect(() => {
     const element = valueRef.current;
     const finalValue = target;
     if (finalValue === null || !element) return;
+    if (completed.current === value) { setCount(finalValue); return; }
 
     if (
       reduced ||
-      !('IntersectionObserver' in window)
+      typeof window.IntersectionObserver !== 'function'
     ) {
       setCount(finalValue);
+      completed.current = value;
       return;
     }
 
@@ -29,20 +33,23 @@ export function AnimatedValue({ value }: { value: string }) {
 
       const animate = (timestamp: number) => {
         if (!startedAt) startedAt = timestamp;
-        const progress = Math.min((timestamp - startedAt) / 1500, 1);
-        setCount(Math.round(finalValue * (1 - Math.pow(1 - progress, 3))));
+        const progress = Math.min((timestamp - startedAt) / motionTiming.counter.durationMs, 1);
+        const decimals = numberMatch?.[0].split('.')[1]?.length ?? 0;
+        const multiplier = 10 ** decimals;
+        setCount(Math.round(finalValue * (1 - Math.pow(1 - progress, 3)) * multiplier) / multiplier);
         if (progress < 1) frame = window.requestAnimationFrame(animate);
+        else completed.current = value;
       };
 
       frame = window.requestAnimationFrame(animate);
-    }, { threshold: 0.35 });
+    }, { threshold: 0.01 });
 
     observer.observe(element);
     return () => {
       observer.disconnect();
       window.cancelAnimationFrame(frame);
     };
-  }, [target, reduced]);
+  }, [target, reduced, value]);
 
   if (!numberMatch || target === null) {
     return <span ref={valueRef}>{value}</span>;
@@ -54,7 +61,7 @@ export function AnimatedValue({ value }: { value: string }) {
 
   return (
     <span ref={valueRef} aria-label={value}>
-      {prefix}{new Intl.NumberFormat('en-SG').format(reduced ? target : count)}{suffix}
+      {prefix}{new Intl.NumberFormat('en-SG', { maximumFractionDigits: numberMatch[0].split('.')[1]?.length ?? 0 }).format(reduced ? target : count)}{suffix}
     </span>
   );
 }

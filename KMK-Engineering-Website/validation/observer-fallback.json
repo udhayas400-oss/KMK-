@@ -1,0 +1,9 @@
+{
+  "fallback": {
+    "targets": 0,
+    "app": true,
+    "hidden": false
+  },
+  "errors": [],
+  "passed": true
+}

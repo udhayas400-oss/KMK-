@@ -3,23 +3,23 @@ import { Plus } from 'lucide-react';
 import { siteContent } from '../../content';
 import { motion, useReducedMotion } from 'framer-motion';
 import { RevealHeading } from './RevealHeading';
-import { entryViewport, useReveal, useVisualReveal } from './PremiumSections';
+import { motionTiming } from '../../lib/animation';
 
 export function FaqSection() {
   const reduced = useReducedMotion();
-  const reveal = useReveal();
-  const visualReveal = useVisualReveal();
+
+
   const [activeFaq, setActiveFaq] = useState<number | null>(0);
 
   return (
     <section className="faq-section faq-premium" id="faqs">
       <div className="container faq-layout">
-        <motion.div className="faq-heading" initial="hidden" whileInView="show" viewport={entryViewport}>
-          <motion.div className="eyebrow" variants={reveal}>FAQs</motion.div>
-          <RevealHeading html="Clarity starts<br />with a question." />
-          <motion.p variants={reveal} custom={.24}>Explore BizSAFE levels, risk assessments, ISO systems and audit preparation. Start with the questions relevant to your workplace.</motion.p>
-        </motion.div>
-        <motion.div initial="hidden" whileInView="show" viewport={entryViewport} variants={visualReveal} className="faq-list" data-testid="accordion-faq">
+        <div className="faq-heading">
+          <div className="eyebrow">FAQs</div>
+          <RevealHeading text="Frequently Asked Questions" />
+          <p>Explore BizSAFE levels, risk assessments, ISO systems and audit preparation. Start with the questions relevant to your workplace.</p>
+        </div>
+        <div className="faq-list" data-testid="accordion-faq">
           {siteContent.faqs.map((faq, index) => {
             const expanded = activeFaq === index;
             return (
@@ -38,7 +38,7 @@ export function FaqSection() {
                     className="faq-answer-motion"
                     initial={false}
                     animate={{ height: expanded ? 'auto' : 0, opacity: expanded ? 1 : 0 }}
-                    transition={{ duration: reduced ? 0 : .3, ease: 'easeOut' }}
+                    transition={{ duration: reduced ? 0 : motionTiming.faq.duration, ease: motionTiming.ease }}
                     id={`faq-answer-${index}`}
                     role="region"
                     aria-labelledby={`faq-question-${index}`}
@@ -51,7 +51,7 @@ export function FaqSection() {
               </div>
             );
           })}
-        </motion.div>
+        </div>
       </div>
     </section>
   );

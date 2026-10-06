@@ -1,0 +1,64 @@
+/* Timings reconstructed from rendered interactions, not reference source. */
+html{scroll-padding-top:0}
+.nav-height{height:108px}.navbar{position:relative}.navbar.is-scrolled{position:fixed;top:0;left:0;width:100%;animation:sticky-arrival 1s ease}
+.navbar:has(.nav-links.open){animation:none}
+@keyframes sticky-arrival{from{transform:translateY(-100%)}to{transform:none}}
+.drawer-header,.drawer-contact,.nav-overlay{display:none}
+.nav-dropdown{transform:scaleY(0);transform-origin:top;transition:transform .4s ease,opacity .4s ease,visibility .4s}
+.nav-item.expanded .nav-dropdown{transform:scaleY(1)}
+.nav-dropdown>div>a{display:block;padding:16px 24px;border-bottom:1px solid var(--line);font-size:15px}
+.nav-dropdown>div>a:hover{background:var(--navy);color:white}
+.dropdown-toggle svg{transition:transform .3s ease}
+.button-label{position:relative;display:block;overflow:hidden;line-height:1.5;height:1.5em}
+.button-label>span{display:block;transition:transform .3s ease}
+.button-label>span+span{position:absolute;top:100%;left:0;right:0;white-space:nowrap}
+a:hover>.button-label>span,button:hover>.button-label>span,a:focus-visible>.button-label>span,button:focus-visible>.button-label>span{transform:translateY(-100%)}
+.button-primary svg,.nav-cta svg,.button-quiet svg,.service-card a svg,.blog-card button svg{transition:transform .4s ease}
+.service-card a:hover svg,.blog-card button:hover svg{transform:translateX(4px)}
+.blog-card:hover{transform:none;box-shadow:none}
+.hero{touch-action:pan-y}.hero-motion-copy{position:relative}
+[data-motion]{opacity:0}
+#why-kmk{overflow:clip}
+[data-motion=mask-left]{clip-path:inset(0 100% 0 0);transform:translateX(-40px)}
+[data-motion=left]{transform:translateX(-50px)}[data-motion=right]{transform:translateX(50px)}[data-motion=up]{transform:translateY(80px)}
+[data-motion=mask-left].motion-entered{animation:reveal-image 1.3s .4s cubic-bezier(.645,.045,.355,1) both}
+[data-motion=left].motion-entered{animation:reveal-left 1s ease both}
+[data-motion=right].motion-entered{animation:reveal-right 1s ease both}
+[data-motion=up].motion-entered{animation:reveal-up 1s ease both}
+@keyframes reveal-image{from{opacity:0;clip-path:inset(0 100% 0 0);transform:translateX(-40px)}to{opacity:1;clip-path:inset(0);transform:none}}
+@keyframes reveal-left{from{opacity:0;transform:translateX(-50px)}to{opacity:1;transform:none}}
+@keyframes reveal-right{from{opacity:0;transform:translateX(50px)}to{opacity:1;transform:none}}
+@keyframes reveal-up{from{opacity:0;transform:translateY(80px)}to{opacity:1;transform:none}}
+.testimonial-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}.testimonial-grid .testimonial-card{padding:30px 24px;min-height:310px}.testimonial-grid blockquote{font-size:20px}
+.partner-track{gap:0;animation:partner-seamless var(--partner-duration,30s) linear infinite}.partner-group{padding-right:26px;flex-shrink:0}
+@keyframes partner-seamless{to{transform:translateX(calc(-1 * var(--partner-width,1224px)))}}
+.partner-window[data-running=false] .partner-track{animation-play-state:paused}
+@media(max-width:1199px){
+ .nav-height{height:90px}.nav-overlay{display:block;position:fixed;inset:0;width:100%;height:100dvh;background:#0009;opacity:0;visibility:hidden;z-index:55;transition:opacity .4s ease,visibility .4s}
+ .nav-overlay.open{opacity:1;visibility:visible}
+ .nav-links,.nav-links.open{display:flex;position:fixed;top:0;left:0;right:auto;bottom:0;width:310px;height:100dvh;max-height:none;padding:24px;background:var(--navy);color:white;border:0;box-shadow:none;flex-direction:column;align-items:stretch;gap:0;z-index:60;transform:translateX(-100%);opacity:0;visibility:hidden;transition:transform .4s cubic-bezier(.785,.135,.15,.86),opacity .4s cubic-bezier(.785,.135,.15,.86),visibility .4s;overflow-y:auto;overscroll-behavior:contain}
+ .nav-links.open{transform:none;opacity:1;visibility:visible}
+ .drawer-header{display:flex;align-items:center;justify-content:space-between;gap:8px;padding-bottom:24px;margin-bottom:16px;border-bottom:1px solid #ffffff30}
+ .drawer-header .brand{gap:8px}.drawer-header .brand-logo{width:40px;height:40px}.drawer-header .brand-name{font-size:14px}.drawer-header .brand-sub{font-size:7px;letter-spacing:1px}
+ .drawer-header>button{background:transparent;color:white;padding:4px;display:grid;place-items:center}
+ .nav-item{border-color:#ffffff30}.nav-label>a{padding:16px 0}.dropdown-toggle{color:white}
+ .nav-dropdown,.nav-item.expanded .nav-dropdown{display:grid;grid-template-rows:0fr;position:static;transform:none;opacity:1;min-width:0;background:transparent;margin:0;visibility:hidden;transition:grid-template-rows .3s ease,visibility .3s}
+ .nav-item.expanded .nav-dropdown{grid-template-rows:1fr;visibility:visible}.nav-dropdown>div{overflow:hidden;min-height:0}
+ .nav-dropdown>div>a{padding:12px 15px;border-color:#ffffff20;font-size:14px}.nav-dropdown>div>a:hover{background:#ffffff10;color:var(--gold)}
+ .nav-links .nav-cta{background:var(--gold);color:var(--navy);margin-top:24px}
+ .drawer-contact{display:flex;flex-direction:column;gap:14px;font-size:12px;overflow-wrap:anywhere;border-top:1px solid #ffffff30;padding-top:24px;margin-top:28px;color:#d2d9e8}
+ .mobile-toggle{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:5px}.mobile-toggle>span{display:block;width:20px;height:2px;background:white;transition:transform .3s ease,opacity .3s ease}
+ .mobile-toggle.active>span:first-child{transform:translateY(7px) rotate(45deg)}.mobile-toggle.active>span:nth-child(2){opacity:0}.mobile-toggle.active>span:last-child{transform:translateY(-7px) rotate(-45deg)}
+}
+@media(max-width:991px){.testimonial-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:767px){.nav-height{height:80px}.nav-links,.nav-links.open{width:270px;max-width:calc(100% - 30px);padding:20px}.testimonial-grid{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){[data-motion],[data-motion].motion-entered{opacity:1;transform:none;clip-path:none;animation:none}.navbar.is-scrolled{animation:none}.partner-track{animation:none;width:100%;display:block}.partner-group{padding-right:0;flex-wrap:wrap}.partner-group[aria-hidden=true]{display:none}.button-label>span{transition:none}a:hover>.button-label>span,button:hover>.button-label>span{transform:none}}
+/* Trigger logic hides targets only after a supported observer is connected. */
+[data-motion].motion-entered{animation-delay:var(--reveal-delay,0s)}
+[data-motion=mask-left].motion-entered{animation-delay:.4s}
+.featured-services,.other-services,.metrics-section,#about,#certification,.contact-section,.footer{overflow-x:clip}
+.testimonial-slider{touch-action:pan-y;max-width:100%}
+.testimonial-stage{display:grid;overflow:hidden;min-height:330px}
+.testimonial-stage > article{grid-area:1/1;min-width:0}
+.testimonial-slider .testimonial-card{width:100%;max-width:860px;margin:auto}
+.testimonial-stage{position:relative}.testimonial-sizer{visibility:hidden;pointer-events:none}
