@@ -1,5 +1,6 @@
 import { ArrowUpRight } from 'lucide-react';
 import { siteContent } from '../../content';
+import logoUrl from '../../../logi.jpeg';
 
 export function Footer() {
   const { company, footer } = siteContent;
@@ -12,7 +13,7 @@ export function Footer() {
         <div className="footer-grid">
           <div className="footer-about">
             <a className="brand" href="#home" data-testid="link-footer-home">
-              <span className="brand-mark" aria-hidden="true">{company.monogram}</span>
+              <span className="brand-mark brand-logo-wrap" aria-hidden="true"><img src={logoUrl} alt="" /></span>
               <span className="brand-name">
                 {company.shortName}
                 <span className="brand-sub">SAFETY / ENGINEERING</span>

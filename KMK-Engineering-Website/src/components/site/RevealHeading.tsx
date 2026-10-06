@@ -8,9 +8,8 @@ type Props = HTMLAttributes<HTMLHeadingElement> & {
   delay?: number;
 };
 
-// Preserve the existing words, spaces, emphasis and explicit breaks. Natural wrapping
-// determines the stagger, so mobile headings do not inherit desktop line breaks.
-function words(text: string, html?: string): ReactNode[] {
+// Preserve emphasis and explicit breaks while revealing every visible letter.
+function letters(text: string, html?: string): ReactNode[] {
   const nodes: ReactNode[] = [];
   let emphasis = false;
   for (const part of (html ?? text).split(/(<\/?em>|<br\s*\/?\s*>)/i)) {
@@ -19,8 +18,15 @@ function words(text: string, html?: string): ReactNode[] {
     if (/^<br/i.test(part)) { nodes.push(<br key={nodes.length} />); continue; }
     for (const word of part.split(/(\s+)/)) {
       if (!word) continue;
-      if (/^\s+$/.test(word)) nodes.push(word);
-      else nodes.push(<span className="heading-word" key={nodes.length}>{emphasis ? <em>{word}</em> : word}</span>);
+      if (/^\s+$/.test(word)) { nodes.push(word); continue; }
+      const characters = Array.from(word).map((character, index) => (
+        <span className="heading-letter" aria-hidden="true" key={index}>{character}</span>
+      ));
+      nodes.push(
+        <span className="heading-word" aria-label={word} key={nodes.length}>
+          {emphasis ? <em>{characters}</em> : characters}
+        </span>
+      );
     }
   }
   return nodes;
@@ -37,10 +43,14 @@ export function RevealHeading({ as: Tag = 'h2', text = '', html, autoPlay = fals
       if (!active) return;
       let lastTop = -Infinity;
       let line = -1;
+      let characterIndex = 0;
       heading.querySelectorAll<HTMLElement>('.heading-word').forEach(word => {
         const top = word.offsetTop;
         if (Math.abs(top - lastTop) > 2) { line += 1; lastTop = top; }
-        word.style.setProperty('--line-delay', `${delay + line * .1}s`);
+        word.querySelectorAll<HTMLElement>('.heading-letter').forEach(letter => {
+          letter.style.setProperty('--letter-delay', `${delay + line * .08 + characterIndex * .022}s`);
+          characterIndex += 1;
+        });
       });
     };
     measure();
@@ -66,5 +76,5 @@ export function RevealHeading({ as: Tag = 'h2', text = '', html, autoPlay = fals
       media.removeEventListener('change', reduce);
     };
   }, [text, html, autoPlay, delay]);
-  return <Tag {...props} ref={ref} className={`line-reveal-heading ${className}`}>{words(text, html)}</Tag>;
+  return <Tag {...props} ref={ref} className={`line-reveal-heading ${className}`}>{letters(text, html)}</Tag>;
 }

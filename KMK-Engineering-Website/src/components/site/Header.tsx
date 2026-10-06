@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { ArrowUpRight, Menu, X } from 'lucide-react';
 import { siteContent } from '../../content';
+import logoUrl from '../../../logi.jpeg';
 
 export function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -31,7 +32,7 @@ export function Header() {
       <header className={`navbar navbar-premium ${scrolled ? 'is-scrolled' : ''}`} style={{ zIndex: 50 }}>
         <div className="container nav-inner">
           <a className="brand" href="#home" aria-label={`${company.shortName} home`} data-testid="link-brand-home">
-            <span className="brand-mark" aria-hidden="true">{company.monogram}<i /></span>
+            <span className="brand-mark brand-logo-wrap" aria-hidden="true"><img src={logoUrl} alt="" /></span>
             <span className="brand-name">{company.shortName}<span className="brand-sub">SAFETY / ENGINEERING</span></span>
           </a>
           <nav id="site-navigation" className={`nav-links ${mobileOpen ? 'open' : ''}`} aria-label="Main navigation">
