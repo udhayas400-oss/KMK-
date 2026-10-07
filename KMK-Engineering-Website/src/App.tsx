@@ -7,9 +7,10 @@ import { Footer } from './components/site/Footer';
 import { Header } from './components/site/Header';
 import { SiteEffects } from './components/site/SiteEffects';
 import { DedicatedPages } from './components/site/DedicatedPages';
+import { PageHeaderBanner } from './components/site/PageHeaderBanner';
 function RouteContent({route}:{route:string}){
  useLayoutEffect(()=>{window.scrollTo({top:0,left:0,behavior:'instant'});},[]);
- return <><SiteEffects/><main id="main-content" tabIndex={-1}>{route==='/'?<><HeroSection/><TrustStrip/><AboutSection/><FeaturedServices preview/><MetricsSection/><ServicesSection/><WhySection/><SafetyStatement/><BlogSection/><TestimonialSection/><PartnersSection/><FaqSection/><ContactSection/></>:<DedicatedPages route={route}/>}</main></>;
+ return <><SiteEffects/><main id="main-content" tabIndex={-1}>{route==='/'?<><HeroSection/><TrustStrip/><AboutSection/><FeaturedServices preview/><MetricsSection/><ServicesSection/><WhySection/><SafetyStatement/><BlogSection/><TestimonialSection/><PartnersSection/><FaqSection/><ContactSection/></>:<><PageHeaderBanner route={route}/><DedicatedPages route={route}/></>}</main></>;
 }
 function App(){
  const route=usePageRoute();
