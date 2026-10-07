@@ -1,4 +1,4 @@
-.page-header-banner{position:relative;isolation:isolate;overflow:clip;background:#031e2f;color:#fff;padding:80px 0;min-height:360px;display:flex;align-items:center}
+.page-header-banner{position:relative;isolation:isolate;overflow:clip;background:#031e2f;color:#fff;padding:48px 0;min-height:0;display:flex;align-items:center}
 .page-header-banner .page-banner-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center;gap:64px}
 .page-header-banner .page-banner-heading,.page-header-banner .page-banner-description{min-width:0}
 .page-header-banner h1{color:#fff;font-size:clamp(36px,4vw,56px);font-weight:700;line-height:1.15;letter-spacing:-1px;margin:0 0 24px;overflow-wrap:break-word}
@@ -13,6 +13,6 @@
 .page-header-banner .page-banner-breadcrumb.motion-entered{animation-delay:.12s}
 .page-header-banner .page-banner-arrow.motion-entered{animation-delay:.18s}
 .page-header-banner .page-banner-description p.motion-entered{animation-delay:.24s}
-@media(max-width:991px){.page-header-banner{padding:65px 0}.page-header-banner .page-banner-layout{gap:36px}.page-header-banner .page-banner-description{gap:16px}}
-@media(max-width:767px){.page-header-banner{padding:48px 0;min-height:0}.page-header-banner .page-banner-layout{grid-template-columns:minmax(0,1fr);gap:28px}.page-header-banner h1{font-size:36px;letter-spacing:-.5px;margin-bottom:18px}.page-header-banner .page-banner-breadcrumb ol{font-size:14px;gap:10px}.page-header-banner .page-banner-description p{font-size:16px}.page-header-banner .page-banner-arrow{width:28px;height:28px}.page-header-banner::after{width:75px;height:75px;border-width:12px}}
+@media(max-width:991px){.page-header-banner{padding:48px 0}.page-header-banner .page-banner-layout{gap:36px}.page-header-banner .page-banner-description{gap:16px}}
+@media(max-width:767px){.page-header-banner{padding:28px 0;min-height:0}.page-header-banner .page-banner-layout{grid-template-columns:minmax(0,1fr);gap:28px}.page-header-banner h1{font-size:36px;letter-spacing:-.5px;margin-bottom:18px}.page-header-banner .page-banner-breadcrumb ol{font-size:14px;gap:10px}.page-header-banner .page-banner-description p{font-size:16px}.page-header-banner .page-banner-arrow{width:28px;height:28px}.page-header-banner::after{width:75px;height:75px;border-width:12px}}
 @media(prefers-reduced-motion:reduce){.page-header-banner [data-motion].motion-entered{animation:none;animation-delay:0s}}
