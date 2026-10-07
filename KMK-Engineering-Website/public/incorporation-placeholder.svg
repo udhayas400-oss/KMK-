@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="768" viewBox="0 0 1024 768" role="img" aria-labelledby="title desc">
+  <title id="title">Business setup image placeholder</title>
+  <desc id="desc">Illustration of company documentation, an office building and a briefcase. Replace with an approved Incorporation photograph when available.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1"><stop stop-color="#082464"/><stop offset="1" stop-color="#0756a3"/></linearGradient>
+    <linearGradient id="folder" x2="1" y2="1"><stop stop-color="#10a56b"/><stop offset="1" stop-color="#087a66"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#031534" flood-opacity=".3"/></filter>
+    <pattern id="windows" width="46" height="48" patternUnits="userSpaceOnUse"><rect x="12" y="12" width="18" height="25" rx="3" fill="#d8ecff" opacity=".45"/></pattern>
+  </defs>
+  <rect width="1024" height="768" fill="url(#background)"/>
+  <circle cx="930" cy="20" r="320" fill="#1687d9" opacity=".2"/>
+  <circle cx="90" cy="710" r="245" fill="#10a56b" opacity=".18"/>
+  <path d="M0 644H1024" stroke="#d5eaff" stroke-opacity=".16"/>
+  <g opacity=".65"><rect x="730" y="167" width="180" height="424" rx="12" fill="#1687d9"/><rect x="746" y="183" width="148" height="385" fill="url(#windows)"/><rect x="647" y="294" width="126" height="297" rx="8" fill="#1687d9"/><rect x="654" y="309" width="112" height="260" fill="url(#windows)"/></g>
+  <g filter="url(#shadow)">
+    <rect x="187" y="154" width="422" height="439" rx="22" fill="#dbe9f5" transform="rotate(-7 398 374)"/>
+    <rect x="237" y="130" width="422" height="465" rx="22" fill="#fff"/>
+    <rect x="273" y="168" width="68" height="68" rx="14" fill="#e8f6ef"/>
+    <path d="M291 211V188H321V211M286 215H326M300 194V200M312 194V200M300 205V211M312 205V211" fill="none" stroke="#10a56b" stroke-width="4" stroke-linecap="round"/>
+    <rect x="367" y="181" width="236" height="12" rx="6" fill="#082464"/>
+    <rect x="367" y="208" width="166" height="8" rx="4" fill="#9db2c7"/>
+    <path d="M275 265H619" stroke="#e5edf3" stroke-width="2"/>
+    <g fill="#dce7f0"><rect x="281" y="296" width="263" height="10" rx="5"/><rect x="281" y="332" width="313" height="10" rx="5"/><rect x="281" y="368" width="229" height="10" rx="5"/><rect x="281" y="404" width="288" height="10" rx="5"/></g>
+    <rect x="277" y="459" width="145" height="49" rx="10" fill="#e8f6ef"/>
+    <path d="M296 482L304 490L320 473" fill="none" stroke="#10a56b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="334" y="478" width="68" height="9" rx="4" fill="#10a56b"/>
+  </g>
+  <g filter="url(#shadow)"><path d="M556 529V493Q556 479 570 479H646Q660 479 660 493V529" fill="none" stroke="#f4c430" stroke-width="14"/><rect x="490" y="520" width="296" height="165" rx="22" fill="url(#folder)"/><path d="M490 569Q638 611 786 569" fill="none" stroke="#71d9ac" stroke-opacity=".6" stroke-width="3"/><rect x="620" y="576" width="36" height="37" rx="7" fill="#f4c430"/></g>
+  <rect x="59" y="52" width="376" height="42" rx="21" fill="#ffffff" fill-opacity=".12"/>
+  <text x="80" y="79" fill="#e7f1ff" font-family="Arial,sans-serif" font-size="16" letter-spacing="1.5">BUSINESS SETUP · IMAGE PLACEHOLDER</text>
+</svg>
