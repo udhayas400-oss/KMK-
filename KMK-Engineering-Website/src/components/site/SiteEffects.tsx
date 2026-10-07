@@ -10,8 +10,8 @@ const profiles: readonly RevealProfile[] = [
   { selector: '.stats-box,.metrics-section .split-layout > div:first-child', motion: 'up' },
   { selector: '.achievement-image,.certification-image', motion: 'left' },
   { selector: '#certification .split-layout > div:last-child', motion: 'right' },
-  { selector: '#bca .bca-image', motion: 'left', trigger: '#bca' },
-  { selector: '#bca .bca-content', motion: 'right', trigger: '#bca' },
+  // The BCA introduction is visible on mount; observing the entire long page
+  // can leave its first image and copy hidden until the user scrolls.
   { selector: '#incorporation .incorporation-content', motion: 'left', trigger: '#incorporation' },
   { selector: '#incorporation .incorporation-image', motion: 'right', trigger: '#incorporation' },
   { selector: '.service-card,.iso-grid article', motion: 'up', stagger: .12 },
