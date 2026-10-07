@@ -1,11 +1,15 @@
 // Original KMK copy. Current authority requirements determine eligibility and approval.
 export const businessContent = [
   {
-    id: 'incorporation', title: 'Incorporation', label: 'Company Setup Support',
+    id: 'incorporation', title: 'Incorporation', label: 'Company Incorporation',
     paragraphs: [
-      'KMK Engineering supports entrepreneurs, startups and established businesses setting up a company in Singapore. We help turn your plans into clear preparation steps, from choosing a structure and organising company details to understanding registration requirements.',
-      'Our end-to-end incorporation support connects business setup guidance, documentation preparation and regulatory considerations. We review the information needed for your application, identify outstanding documents and guide the process so avoidable omissions do not hold up your submission.',
-      'The right structure depends on ownership, liability, administration and growth plans. KMK helps you consider these factors before preparing registration paperwork, with responsibilities and the scope of support agreed from the outset.',
+      'KMK Engineering provides professional support for businesses looking to establish and register a company in Singapore. We guide entrepreneurs, startups and established businesses through the incorporation process, helping them understand registration requirements, prepare the necessary documentation and complete each stage efficiently.',
+    ],
+    services: [
+      { title: 'Business Name Registration', text: 'Support with selecting and registering an appropriate business name while meeting applicable registration requirements.' },
+      { title: 'Preparation of Incorporation Documents', text: 'Guidance in preparing company information, declarations and supporting documents for the incorporation process.' },
+      { title: 'Registration & Approval Support', text: 'Assistance with registration procedures, regulatory requirements and government approvals where applicable.' },
+      { title: 'Business Structure Guidance', text: 'Support in understanding suitable business structures and their requirements before proceeding with registration.' },
     ],
     blocks: [
       { title: 'Business Name Registration', paragraphs: [
@@ -29,13 +33,23 @@ export const businessContent = [
     ],
   },
   {
-    id: 'bca', title: 'BCA', label: 'Construction Registration Support',
+    id: 'bca', title: 'BCA', label: 'BCA Registration Support',
     paragraphs: [
-      'BCA registration helps classify construction businesses for the activities and registration grades they apply for. Assessment can cover financial capacity, technical capability, relevant project experience and applicable safety or certification requirements. The criteria depend on the workhead and grade.',
-      'The Building and Construction Authority (BCA) regulates and develops Singapore’s built environment. Its responsibilities include building safety, construction quality, sustainability, productivity and industry standards. Contractor registration and builder licensing are distinct parts of this framework.',
-      'KMK Engineering helps companies understand the appropriate registration route, review their supporting records and prepare application documentation. The process starts with your actual work activities and available evidence, rather than an assumed grade or eligibility claim.',
+      'KMK Engineering provides guidance and documentation support for companies preparing for BCA registration in Singapore. We help businesses understand the relevant registration categories, workheads, grades and supporting requirements applicable to their construction activities.',
+    ],
+    services: [
+      { title: 'Contractors Registration System (CRS)', text: 'Guidance on contractor registration, suitable workheads, grading requirements and the documents needed for the relevant category.' },
+      { title: 'Builder Licensing Scheme (BLS)', text: 'Support in understanding builder licensing requirements and preparing information for applicable building works.' },
+      { title: 'Workheads & Grading', text: 'Assistance identifying appropriate workheads and understanding the financial, technical and track-record requirements associated with different grades.' },
+      { title: 'Documentation & Eligibility Review', text: 'Support reviewing financial information, company track record, technical personnel and other application documents.' },
     ],
     blocks: [
+      { title: 'What is BCA Registration?', paragraphs: [
+        'BCA registration classifies construction businesses for the activities and grades they apply for. Assessment can cover financial capacity, technical capability, relevant project experience and applicable safety or certification requirements. The criteria depend on the workhead and grade.',
+      ] },
+      { title: 'What is BCA?', paragraphs: [
+        'The Building and Construction Authority (BCA) regulates and develops Singapore’s built environment. Its responsibilities include building safety, construction quality, sustainability, productivity and industry standards. Contractor registration and builder licensing are distinct parts of this framework.',
+      ] },
       { title: 'Contractors Registration System (CRS)', paragraphs: [
         'CRS is BCA’s national contractor registry. Firms register under workheads describing their activities, with grades reflecting the applicable registration criteria and, where relevant, public-sector tendering limits.',
         'Registration is relevant to public-sector construction tenders and first-level subcontracting on public projects. Since 1 June 2025, firms wishing to hire construction-sector S Pass or Work Permit holders must also register with CRS. KMK can help review the relevant workhead requirements and prepare the company, financial, personnel and project records needed for an application.',

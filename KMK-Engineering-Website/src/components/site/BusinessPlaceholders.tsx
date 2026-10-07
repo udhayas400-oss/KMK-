@@ -11,15 +11,14 @@ export function BusinessPlaceholders() {
       {item.id === 'bca' ? <div className="bca-content">
         <span className="eyebrow">KMK Engineering · {item.label}</span>
         <h3 id={item.id + '-title'}>{item.title}</h3>
-        {item.paragraphs.map((paragraph, index) => <div key={paragraph}>
-          {index < 2 && <h4>{index === 0 ? 'What is BCA Registration?' : 'What is BCA?'}</h4>}
-          <p>{paragraph}</p>
-        </div>)}
+        {item.paragraphs.map(paragraph => <p key={paragraph}>{paragraph}</p>)}
+        {item.services.map(service => <p key={service.title}><strong>{service.title}</strong><br />{service.text}</p>)}
         <a className="button-primary" href="#contact"><ButtonLabel>Enquire with KMK</ButtonLabel><ArrowRight size={18} /></a>
       </div> : <div className="incorporation-content">
       <span className="eyebrow">KMK Engineering · {item.label}</span>
       <h3 id={item.id + '-title'}>{item.title}</h3>
       {item.paragraphs.map(paragraph => <p key={paragraph}>{paragraph}</p>)}
+      {item.services.map(service => <p key={service.title}><strong>{service.title}</strong><br />{service.text}</p>)}
       <a className="button-primary" href="#contact"><ButtonLabel>Enquire with KMK</ButtonLabel><ArrowRight size={18} /></a>
       </div>}
       {item.id === 'incorporation' && <div className="incorporation-image"><img src="/incorporation-placeholder.svg" alt="Placeholder illustration for company documentation and business setup" width="1024" height="768" loading="lazy" /></div>}
