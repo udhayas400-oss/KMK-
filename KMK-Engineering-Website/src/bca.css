@@ -3,5 +3,11 @@
 #bca .bca-image,#incorporation .incorporation-image{min-width:0;aspect-ratio:4/3;border-radius:20px;box-shadow:0 12px 30px #062c4a35}
 #bca .bca-image img,#incorporation .incorporation-image img{width:100%;height:100%;object-fit:cover;border-radius:inherit}
 #bca .bca-content,#incorporation .incorporation-content{min-width:0}
+#bca .business-details,#incorporation .business-details{grid-column:1/-1;min-width:0}
+#bca .business-detail-block,#incorporation .business-detail-block{margin-bottom:32px}
+#bca .business-details h4,#incorporation .business-details h4{font-size:20px;font-weight:600}
+#bca .business-details ul,#incorporation .business-details ul{padding-left:22px;list-style:disc}
+#bca .business-faq details,#incorporation .business-faq details{padding:18px 0;border-bottom:1px solid var(--line)}
+#bca .business-faq summary,#incorporation .business-faq summary{cursor:pointer}
 @media(max-width:1199px){#bca.business-placeholder,#incorporation.business-placeholder{gap:28px}}
 @media(max-width:767px){#bca.business-placeholder,#incorporation.business-placeholder{grid-template-columns:minmax(0,1fr);gap:28px}#incorporation .incorporation-image{order:-1}}
