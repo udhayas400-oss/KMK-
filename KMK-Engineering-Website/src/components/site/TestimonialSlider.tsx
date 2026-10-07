@@ -1,11 +1,74 @@
-﻿import { AnimatePresence, motion } from 'framer-motion';
-import { ArrowLeft, ArrowRight, Pause, Play, Quote } from 'lucide-react';
+import { useEffect, useRef, useState, type CSSProperties } from 'react';
+import { ArrowLeft, ArrowRight, Pause, Play, Star } from 'lucide-react';
+import { useInView } from 'framer-motion';
 import { siteContent as c } from '../../content';
 import { useCarousel } from '../../hooks/useCarousel';
 import { motionTiming } from '../../lib/animation';
 import { RevealHeading } from './RevealHeading';
+import '../../reviews.css';
+
+function Stars() {
+  return <span className="review-stars" aria-label="Sample rating: 5 out of 5">{Array.from({ length: 5 }, (_, i) => <Star key={i} size={17} fill="currentColor" aria-hidden="true" />)}</span>;
+}
+
 export function TestimonialSlider() {
- const carousel=useCarousel(c.testimonial.slides.length,motionTiming.testimonial.intervalMs);
- const item=c.testimonial.slides[carousel.active];
- return <section className="section dark-section testimonials-section"><div className="container"><div className="section-heading"><span className="eyebrow">{c.testimonial.label}</span><RevealHeading text={c.testimonial.heading}/></div><div className="testimonial-slider" tabIndex={0} aria-roledescription="carousel" aria-label="KMK feedback placeholders" {...carousel.interactionProps}><div className="testimonial-stage">{c.testimonial.slides.map((slide,i)=><article className="testimonial-card testimonial-sizer" aria-hidden="true" inert key={i}><Quote size={44}/><span className="placeholder-tag">Placeholder</span><blockquote>{slide.placeholder}</blockquote><p>{slide.attribution}</p></article>)}<AnimatePresence initial={false} mode="popLayout"><motion.article key={carousel.active} className="testimonial-card" role="group" aria-label={'Testimonial '+(carousel.active+1)} initial={{opacity:carousel.reduced?1:0,x:carousel.reduced?0:60*carousel.direction.current}} animate={{opacity:1,x:0}} exit={{opacity:0,x:carousel.reduced?0:-60*carousel.direction.current}} transition={{duration:carousel.reduced?0:motionTiming.testimonial.transition,ease:motionTiming.ease}}><Quote size={44} aria-hidden="true"/><span className="placeholder-tag">Placeholder</span><blockquote>{item.placeholder}</blockquote><p>{item.attribution}</p></motion.article></AnimatePresence></div><div className="testimonial-controls"><button onClick={()=>carousel.move(-1)} aria-label="Previous testimonial"><ArrowLeft size={18}/></button>{c.testimonial.slides.map((_,i)=><button className={'hero-dot '+(carousel.active===i?'active':'')} key={i} aria-label={'Show testimonial '+(i+1)} aria-current={carousel.active===i?'true':undefined} onClick={()=>carousel.change(i)}/>)}<button onClick={()=>carousel.move(1)} aria-label="Next testimonial"><ArrowRight size={18}/></button><button onClick={()=>carousel.setPaused(p=>!p)} aria-label={carousel.paused?'Play testimonials':'Pause testimonials'}>{carousel.paused?<Play size={16}/>:<Pause size={16}/>}</button></div></div><p className="section-note">{c.testimonial.note}</p></div></section>;
+  const section = useRef<HTMLElement>(null);
+  const entered = useInView(section, { once: true, amount: .15 });
+  const slides = c.testimonial.slides, count = slides.length;
+  const carousel = useCarousel(count, motionTiming.testimonial.intervalMs);
+  const previous = useRef(0);
+  const [position, setPosition] = useState(count);
+  const [animate, setAnimate] = useState(true);
+  const [visible, setVisible] = useState(() => window.innerWidth >= 1200 ? 3 : window.innerWidth >= 768 ? 2 : 1);
+  useEffect(() => {
+    const resize = () => setVisible(window.innerWidth >= 1200 ? 3 : window.innerWidth >= 768 ? 2 : 1);
+    window.addEventListener('resize', resize);
+    return () => window.removeEventListener('resize', resize);
+  }, []);
+  useEffect(() => {
+    const old = previous.current, next = carousel.active;
+    if (old === next) return;
+    previous.current = next;
+    setAnimate(!carousel.reduced);
+    setPosition(old === count - 1 && next === 0 && carousel.direction.current > 0 ? count * 2
+      : old === 0 && next === count - 1 && carousel.direction.current < 0 ? count - 1 : count + next);
+  }, [carousel.active, carousel.reduced, carousel.direction, count]);
+  useEffect(() => {
+    if (position >= count && position < count * 2) return;
+    const timer = window.setTimeout(() => {
+      setAnimate(false);
+      setPosition(count + carousel.active);
+    }, carousel.reduced ? 0 : motionTiming.testimonial.transition * 1000);
+    return () => window.clearTimeout(timer);
+  }, [position, carousel.active, carousel.reduced, count]);
+  return <section ref={section} data-entered={entered || carousel.reduced} id="testimonials" className="section dark-section testimonials-section" aria-labelledby="reviews-title">
+    <div className="container">
+      <div className="section-heading review-heading"><span className="eyebrow">{c.testimonial.label}</span><RevealHeading id="reviews-title" text={c.testimonial.heading} />
+        <div className="review-summary"><Stars /><span><strong>5.0 out of 5</strong> — sample rating; Google review count awaiting verification</span></div>
+        <p className="review-disclosure">Sample preview only. These are placeholder testimonials, not published Google reviews.</p>
+      </div>
+      <div className="testimonial-slider" tabIndex={0} aria-roledescription="carousel" aria-label="KMK sample testimonials" {...carousel.interactionProps}>
+        <div className="review-window"><div className="review-track" style={{ '--visible-reviews': visible, '--review-position': position, transitionDuration: animate ? motionTiming.testimonial.transition + 's' : '0s' } as CSSProperties}>
+          {Array.from({ length: count * 3 }, (_, index) => {
+            const slide = slides[index % count];
+            const shown = index >= position && index < position + visible;
+            return <div className="review-slide" key={index} aria-hidden={!shown} inert={!shown}>
+              <article className="google-review-card" role="group" aria-label={'Sample testimonial ' + (index % count + 1) + ' of ' + count} style={{ '--card-delay': Math.max(0, index - count) % visible * 120 + 'ms' } as CSSProperties}>
+                <div className="review-person"><span className="review-avatar" aria-hidden="true">{slide.initials}</span><div><h3>{slide.name}</h3><span>{slide.company}</span></div></div>
+                <span className="review-placeholder">Placeholder testimonial</span>
+                <blockquote>“{slide.placeholder}”</blockquote>
+                <div className="review-source"><span className="google-mark" aria-hidden="true">G</span><span>Google review placeholder<span className="review-time">Posted time awaiting verification</span></span></div>
+                <div className="review-card-rating"><Stars /><span>(5.0 sample)</span></div>
+              </article>
+            </div>;
+          })}
+        </div></div>
+        <div className="testimonial-controls"><button onClick={() => carousel.move(-1)} aria-label="Previous testimonial"><ArrowLeft size={18} /></button>
+          {slides.map((_, i) => <button className={'hero-dot ' + (carousel.active === i ? 'active' : '')} key={i} aria-label={'Show testimonial ' + (i + 1)} aria-current={carousel.active === i ? 'true' : undefined} onClick={() => carousel.change(i)} />)}
+          <button onClick={() => carousel.move(1)} aria-label="Next testimonial"><ArrowRight size={18} /></button><button onClick={() => carousel.setPaused(p => !p)} aria-label={carousel.paused ? 'Play testimonials' : 'Pause testimonials'}>{carousel.paused ? <Play size={16} /> : <Pause size={16} />}</button>
+        </div>
+      </div>
+      <p className="section-note">{c.testimonial.note}</p>
+    </div>
+  </section>;
 }

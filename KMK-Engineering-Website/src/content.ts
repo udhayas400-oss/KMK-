@@ -17,6 +17,7 @@ export const siteContent = {
     { label: 'ISO', href: '#iso', children: [
       { label: 'ISO 9001', href: '#iso-9001' }, { label: 'ISO 14001', href: '#iso-14001' }, { label: 'ISO 45001', href: '#iso-45001' },
     ] },
+    { label: 'Incorporation', href: '#incorporation' }, { label: 'BCA', href: '#bca' },
     { label: 'Engineering', href: '#engineering' }, { label: 'Blog', href: '#blog' }, { label: 'Contact', href: '#contact' },
   ],
   heroSlides: [
@@ -67,11 +68,14 @@ export const siteContent = {
     { id: 'guide-level-4', title: 'Building a BizSAFE Level 4 Plan', category: 'Safety Systems', image: '/industry-manufacturing.jpg', intro: 'Connect policies, responsibilities and practical workplace controls.', body: 'A safety management approach brings responsibilities, procedures and monitoring together. Review the arrangements already in place and identify what needs to be documented or developed. Your plan should reflect actual work, clarify ownership and support consistent implementation. Discuss your current status and target requirements with KMK.' },
     { id: 'guide-star', title: 'Your Next Step Towards BizSAFE STAR', category: 'Continuous Improvement', image: '/kmk-engineering.jpg', intro: 'Review system maturity and organise your implementation evidence.', body: 'Begin with a review of your safety management system and the evidence supporting it. Consider internal reviews, management review records, corrective actions and alignment with relevant safety management standards. Preparation should also account for ongoing monitoring and improvement. KMK can help identify system gaps and plan the next steps.' },
   ],
-  testimonial: { label: 'Client Perspectives', heading: 'What Our Clients Say', slides: [
-    { placeholder: 'An approved KMK client testimonial will appear here.', attribution: 'Client testimonial placeholder' },
-    { placeholder: 'A second approved KMK client testimonial will appear here.', attribution: 'Client testimonial placeholder' },
-    { placeholder: 'Share an approved client experience to complete this section.', attribution: 'Client testimonial placeholder' },
-  ], note: 'Testimonials are placeholders awaiting approved KMK client feedback.' },
+  // Illustrative copy only. Replace all sample information with approved real KMK reviews.
+  testimonial: { label: 'What Our Clients Say', heading: 'Reviewed by Our Clients on Google', slides: [
+    { initials: 'K1', name: 'KMK Client 01', company: 'Client Company · Sample', placeholder: 'KMK Engineering provided professional support and guided our team clearly throughout the certification preparation process.' },
+    { initials: 'K2', name: 'KMK Client 02', company: 'Client Company · Sample', placeholder: 'The team helped us organise our safety documentation and understand the next steps. Their clear guidance made preparation easier to manage.' },
+    { initials: 'K3', name: 'KMK Client 03', company: 'Client Company · Sample', placeholder: 'We appreciated the practical approach to reviewing our workplace requirements and planning improvements with our operations team.' },
+    { initials: 'K4', name: 'KMK Client 04', company: 'Client Company · Sample', placeholder: 'Our questions were explained clearly, and the preparation plan helped our team keep track of responsibilities and supporting records.' },
+    { initials: 'K5', name: 'KMK Client 05', company: 'Client Company · Sample', placeholder: 'The structured documentation review helped us identify gaps and prioritise the work needed before independent assessment.' },
+  ], note: 'All names, companies, review text and ratings above are placeholders awaiting approved KMK client feedback.' },
   partnersMarquee: { heading: 'Our Clients & Business Partners', note: 'Approved KMK client and partner logos can be added here. No affiliations are claimed.', items: ['Client logo placeholder', 'Partner logo placeholder', 'Client logo placeholder', 'Partner logo placeholder'] },
   faqs: [
     { question: 'What is BizSAFE Level 3?', answer: 'Level 3 focuses on implementing workplace risk management. Preparation includes identifying hazards, assessing risks, documenting controls in a Risk Management Plan and maintaining evidence of implementation before independent assessment.' },
