@@ -1,0 +1,23 @@
+.incorporation-page{position:relative;isolation:isolate;overflow:clip;background:#fff;color:var(--ink);padding:90px 0 110px}
+.incorporation-page::before,.incorporation-page::after{content:"";position:absolute;z-index:-1;border-radius:50%;pointer-events:none;width:640px;height:640px;background:#edf7f8}
+.incorporation-page::before{left:-390px;top:230px}
+.incorporation-page::after{right:-360px;bottom:-100px;background:#eef8f3}
+.incorporation-page .inc-page-block{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center;gap:60px}
+.incorporation-page .inc-page-second{margin-top:130px}
+.incorporation-page .inc-page-image{min-width:0;aspect-ratio:4/3;overflow:hidden;border-radius:20px;box-shadow:0 16px 36px #062c4a24}
+.incorporation-page .inc-page-image img{display:block;width:100%;height:100%;object-fit:cover}
+.incorporation-page .inc-page-copy{min-width:0}
+.incorporation-page h1,.incorporation-page h2{font-size:clamp(28px,2.6vw,42px);line-height:1.22;font-weight:500;color:var(--blue-dark);margin:18px 0 24px}
+.incorporation-page h1 strong,.incorporation-page h2 strong{font-weight:800}
+.incorporation-page p{line-height:1.8;color:var(--muted);margin:0}
+.incorporation-page .inc-page-benefits{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:22px 20px;margin:30px 0}
+.incorporation-page .inc-page-benefit{display:flex;align-items:flex-start;gap:10px;font-weight:600;color:var(--blue-dark)}
+.incorporation-page svg{flex-shrink:0}
+.incorporation-page .inc-page-contact{display:flex;flex-wrap:wrap;align-items:center;gap:16px}
+.incorporation-page .inc-page-services{display:grid;gap:28px;margin-top:30px}
+.incorporation-page .inc-page-service{display:flex;align-items:flex-start;gap:18px}
+.incorporation-page .inc-page-check{display:grid;place-items:center;width:38px;height:38px;flex-shrink:0;border:2px solid var(--blue-dark);border-radius:50%;color:var(--blue-dark)}
+.incorporation-page .inc-page-service h3{font-size:20px;line-height:1.4;margin:0 0 9px;color:var(--blue-dark);font-weight:700}
+@media(max-width:1199px){.incorporation-page .inc-page-block{gap:32px}.incorporation-page{padding:65px 0 80px}.incorporation-page .inc-page-second{margin-top:90px}}
+@media(max-width:991px){.incorporation-page .inc-page-block{grid-template-columns:minmax(0,1fr)}.incorporation-page .inc-page-second .inc-page-image{order:-1}.incorporation-page .inc-page-image{max-width:680px;width:100%;justify-self:center}.incorporation-page .inc-page-second{margin-top:75px}}
+@media(max-width:479px){.incorporation-page{padding:36px 0 60px}.incorporation-page .inc-page-benefits{grid-template-columns:minmax(0,1fr)}.incorporation-page .inc-page-service{gap:12px}.incorporation-page .inc-page-service h3{font-size:18px}}
