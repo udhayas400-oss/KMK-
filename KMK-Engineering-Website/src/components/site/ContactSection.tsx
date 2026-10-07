@@ -2,10 +2,12 @@ import { useState, type FormEvent } from 'react';
 import { ArrowUpRight, Mail, MapPin, Phone } from 'lucide-react';
 import { siteContent } from '../../content';
 
+import { getServiceImage } from '../../serviceImage';
+import './service-image.css';
 import { RevealHeading } from './RevealHeading';
 
 
-export function ContactSection() {
+export function ContactSection({ dedicated = false }: { dedicated?: boolean }) {
 
 
   const [formMessage, setFormMessage] = useState('');
@@ -50,7 +52,7 @@ export function ContactSection() {
 
   return (
       <section className="contact-section contact-premium" id="contact">
-      <div className="container contact-layout">
+      <div className="container contact-layout">{dedicated && <img className="shared-service-image contact-service-visual" src={getServiceImage('/contact').src} alt={getServiceImage('/contact').alt} width="960" height="720"/>}
         <div className="contact-copy">
           <div className="eyebrow">{siteContent.contact.eyebrow}</div>
           <RevealHeading text={siteContent.contact.heading} />

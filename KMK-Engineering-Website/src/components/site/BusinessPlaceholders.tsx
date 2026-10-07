@@ -2,13 +2,15 @@ import { ArrowRight, Check } from 'lucide-react';
 import { ButtonLabel } from './ButtonLabel';
 import '../../bca.css';
 import { businessContent } from '../../businessContent';
+import { getServiceImage } from '../../serviceImage';
+import './service-image.css';
 import { BcaRequirements } from './BcaRequirements';
 
 // Original KMK service copy; registration and licensing decisions remain with the authorities.
 export function BusinessPlaceholders({ only }: { only?: string }) {
   return <div className="business-placeholders">
     {businessContent.filter(item => !only || item.id === only).map(item => <section id={item.id} className="business-placeholder" key={item.id} aria-labelledby={item.id + '-title'}>
-      {item.id === 'bca' && <div className="bca-image"><img src="/industry-construction.jpg" alt="Construction site with tower cranes, building work and workers" width="1024" height="1024" loading="lazy" /></div>}
+      {item.id === 'bca' && <div className="bca-image"><img className="shared-service-image" src={getServiceImage('/bca').src} alt={getServiceImage('/bca').alt} width="1024" height="1024" loading="lazy" /></div>}
       {item.id === 'bca' ? <div className="bca-content">
         <span className="eyebrow">KMK Engineering · {item.label}</span>
         <h3 id={item.id + '-title'}>{item.title}</h3>

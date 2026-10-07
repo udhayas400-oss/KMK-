@@ -1,0 +1,8 @@
+/* Scoped to dedicated service visuals; homepage images and blog thumbnails retain their styles. */
+main img.shared-service-image{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:20px}
+main .about-image>img.shared-service-image{aspect-ratio:4/3;height:auto}
+main .overview-service-image{max-width:680px;margin:0 auto 48px}
+main #bca .bca-image img.shared-service-image,main .incorporation-page .inc-page-image img.shared-service-image{height:100%}
+
+main img.shared-service-image{box-shadow:0 12px 30px #062c4a24}
+main .contact-service-visual{grid-column:1/-1;max-width:680px;justify-self:center}

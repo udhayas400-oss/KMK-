@@ -20,8 +20,8 @@ const pages: Record<string, { title: string; breadcrumb?: string; description: s
   '/incorporation': { title: 'Company Incorporation', description: 'Professional company incorporation support to help entrepreneurs and businesses establish their presence in Singapore efficiently.' },
   '/bca': { title: 'BCA Registration', description: 'Professional guidance for BCA registration, contractor classification, workheads, grading and supporting requirements.' },
   '/pr-application': { title: 'PR Application', description: 'Professional guidance and documentation support for individuals preparing their Singapore Permanent Residence application.' },
-  '/blog': { title: 'Our Blog', breadcrumb: 'Blog', description: 'Explore practical insights, updates and guidance on BizSAFE, ISO, BCA, incorporation and business compliance.' },
-  '/contact': { title: 'Contact Us', description: 'Get in touch with our experts for trusted BizSAFE, ISO certification, BCA and incorporation services in Singapore.' },
+  '/blog': { title: 'Blog', breadcrumb: 'Blog', description: 'Explore practical insights, updates and guidance on BizSAFE, ISO, BCA, incorporation and business compliance.' },
+  '/contact': { title: 'Contact Us', description: 'Get in touch with our team for BizSAFE, ISO, BCA, incorporation and consultancy support.' },
   '/faq': { title: 'Frequently Asked Questions', description: 'Find answers to common questions about workplace safety, certification preparation and KMK consultancy support.' },
 };
 const profiles: readonly RevealProfile[] = [
