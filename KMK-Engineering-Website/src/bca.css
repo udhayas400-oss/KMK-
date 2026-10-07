@@ -11,3 +11,42 @@
 #bca .business-faq summary,#incorporation .business-faq summary{cursor:pointer}
 @media(max-width:1199px){#bca.business-placeholder,#incorporation.business-placeholder{gap:28px}}
 @media(max-width:767px){#bca.business-placeholder,#incorporation.business-placeholder{grid-template-columns:minmax(0,1fr);gap:28px}#incorporation .incorporation-image{order:-1}}
+
+#incorporation .incorporation-services{display:grid;gap:24px;margin:28px 0}
+#incorporation .incorporation-service{display:flex;gap:14px;align-items:flex-start}
+#incorporation .incorporation-service>svg{color:var(--blue-dark);margin-top:3px}
+#incorporation .incorporation-service>div{min-width:0}
+#incorporation .incorporation-service h4{font-size:18px;font-weight:600}
+#incorporation .incorporation-service p{margin:8px 0 0}
+#bca .bca-content-section{margin:48px 0}
+#bca .bca-content-section>h3{font-size:clamp(26px,3vw,36px);color:var(--blue-dark)}
+#bca .bca-benefit-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin-top:30px}
+#bca .bca-info-card{background:white;padding:30px;border:1px solid var(--line);border-radius:16px;box-shadow:0 8px 24px #0756a30d;min-width:0}
+#bca .bca-info-card h4,#bca .bca-requirement-card h4{color:var(--blue-dark);font-size:23px}
+#bca .bca-card-icon{color:var(--blue-dark);margin-bottom:20px}
+#bca .bca-info-card p{font-size:15px;margin:16px 0}
+#bca .bca-grading-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+#bca .bca-table-window{max-width:100%;overflow-x:auto;border:1px solid var(--line);border-radius:10px;margin-top:22px}
+#bca table{border-collapse:collapse;width:100%;min-width:450px;font-size:13px;color:var(--text-dark)}
+#bca caption{text-align:left;padding:12px 16px;background:var(--surface-soft);font-weight:600}
+#bca th,#bca td{text-align:left;padding:14px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+#bca thead{background:var(--blue-dark);color:white}
+#bca tbody tr:nth-child(even){background:#eef6fc}
+#bca tbody tr:last-child th,#bca tbody tr:last-child td{border-bottom:0}
+#bca .bca-reference-note{font-size:13px}
+#bca .bca-reference-note a,#bca .bca-cr06 a{color:var(--blue-dark);text-decoration:underline;overflow-wrap:anywhere}
+#bca .bca-requirement-list{display:grid;gap:26px;margin-top:30px}
+#bca .bca-requirement-card{display:grid;grid-template-columns:90px minmax(0,1fr);background:white;border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:0 8px 24px #0756a30d}
+#bca .bca-number{background:var(--blue-dark);color:white;display:flex;justify-content:center;padding-top:28px;font-size:44px;font-weight:700}
+#bca .bca-requirement-card>div:last-child{padding:30px;min-width:0}
+#bca .bca-document-list{padding:0;list-style:none;display:grid;gap:14px;margin:22px 0}
+#bca .bca-document-list li{display:flex;align-items:flex-start;gap:10px}
+#bca .bca-document-list svg{color:var(--blue-dark);margin-top:3px}
+#bca .bca-cr06{background:#eaf5ff;border-radius:12px;padding:26px;margin-top:26px}
+#bca .bca-cr06 h5{font-size:18px;font-weight:600;color:var(--blue-dark)}
+#bca .bca-cr06-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 28px;margin:22px 0}
+#bca .bca-cr06-grid>div{display:flex;align-items:flex-start;gap:10px;min-width:0}
+#bca .bca-cr06-grid strong{color:var(--blue-dark);flex-shrink:0}
+@media(max-width:1199px){#bca .bca-benefit-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:991px){#bca .bca-grading-grid{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:767px){#bca .bca-benefit-grid{grid-template-columns:minmax(0,1fr)}#bca .bca-info-card{padding:24px}#bca .bca-requirement-card{grid-template-columns:54px minmax(0,1fr)}#bca .bca-number{font-size:32px;padding-top:24px}#bca .bca-requirement-card>div:last-child{padding:24px 18px}#bca .bca-cr06{padding:18px}#bca .bca-cr06-grid{grid-template-columns:minmax(0,1fr)}#bca .bca-info-card h4,#bca .bca-requirement-card h4{font-size:21px}}

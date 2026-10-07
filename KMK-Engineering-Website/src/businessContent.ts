@@ -3,13 +3,12 @@ export const businessContent = [
   {
     id: 'incorporation', title: 'Incorporation', label: 'Company Incorporation',
     paragraphs: [
-      'KMK Engineering provides professional support for businesses looking to establish and register a company in Singapore. We guide entrepreneurs, startups and established businesses through the incorporation process, helping them understand registration requirements, prepare the necessary documentation and complete each stage efficiently.',
+      'Incorporating a business in Singapore can be a smooth and hassle-free process when you choose the right partner. KMK Engineering guides entrepreneurs, startups and established businesses through the preparation needed for company registration.',
     ],
     services: [
-      { title: 'Business Name Registration', text: 'Support with selecting and registering an appropriate business name while meeting applicable registration requirements.' },
-      { title: 'Preparation of Incorporation Documents', text: 'Guidance in preparing company information, declarations and supporting documents for the incorporation process.' },
-      { title: 'Registration & Approval Support', text: 'Assistance with registration procedures, regulatory requirements and government approvals where applicable.' },
-      { title: 'Business Structure Guidance', text: 'Support in understanding suitable business structures and their requirements before proceeding with registration.' },
+      { title: 'Business name registration', text: 'Comprehensive company incorporation support: select and prepare an appropriate business name while organising legal documentation, registration requirements and regulatory compliance for a smooth business setup.' },
+      { title: 'Preparation of legal documents', text: 'Expert guidance: choose a suitable business structure and prepare the company information, declarations and supporting incorporation documents correctly before submission.' },
+      { title: 'Assistance with government approvals', text: 'Efficient preparation: understand relevant ACRA registration procedures and government approvals where applicable, organise follow-up information and reduce avoidable application delays.' },
     ],
     blocks: [
       { title: 'Business Name Registration', paragraphs: [
