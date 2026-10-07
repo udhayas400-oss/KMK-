@@ -55,3 +55,12 @@
 .section.bca-page-section{padding:40px 0}
 .bca-page-section .business-placeholders{margin-top:20px}
 .bca-page-section #bca.business-placeholder{align-items:start;row-gap:24px;padding-top:20px;padding-bottom:20px}
+
+/* BCA uses its own mount trigger and one-time card observers. */
+#bca [data-bca-motion]{opacity:0;transition:opacity 800ms cubic-bezier(.22,1,.36,1),transform 800ms cubic-bezier(.22,1,.36,1);transition-delay:var(--bca-delay,0ms)}
+#bca [data-bca-motion=left]{transform:translateX(-55px)}
+#bca [data-bca-motion=right]{transform:translateX(55px)}
+#bca [data-bca-motion=up]{transform:translateY(35px)}
+#bca .bca-grading-grid [data-bca-motion]{transition-duration:700ms}
+#bca [data-bca-motion].bca-entered{opacity:1;transform:translate(0)}
+@media(prefers-reduced-motion:reduce){#bca [data-bca-motion]{opacity:1;transform:none;transition:none;transition-delay:0ms}}
