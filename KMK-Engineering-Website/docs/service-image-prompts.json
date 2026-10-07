@@ -1,0 +1,23 @@
+{
+  "tool": "built-in imagegen",
+  "sharedInstructions": "New original photorealistic corporate website photograph, landscape 4:3, natural realistic faces, hands and environment, distinct people and scene; no reuse or imitation of existing close-up male engineer in white helmet and fluorescent vest; no readable text, logos, watermarks or fabricated certificates; illustrative service scene, not actual KMK staff.",
+  "scenes": {
+    "bizsafe": "Singapore industrial workplace safety briefing with diverse workers in PPE listening to a woman supervisor",
+    "bizsafe-level-1": "Singapore management team attending a workplace safety leadership presentation",
+    "bizsafe-level-2": "Practical risk-management training workshop around a workbench",
+    "bizsafe-level-3": "Female safety officer with clipboard inspecting machine guarding with a worker",
+    "bizsafe-level-4": "Management safety strategy meeting in a modern industrial office",
+    "bizsafe-star": "Professional auditors reviewing factory safety compliance with a staff guide",
+    "iso": "Management-system consultants reviewing process documentation in a modern office",
+    "iso-9001": "Female quality inspector measuring a manufactured metal component with digital calipers",
+    "iso-14001": "Environmental engineer checking water monitoring instruments near landscaping and a solar-powered facility",
+    "iso-45001": "Red-helmet safety professional checking fall-protection equipment with workers",
+    "iso-22000": "Food hygiene inspector and production workers in hygienic uniforms checking food packaging",
+    "iso-27001": "Female cybersecurity analyst with laptop in a secure blue-lit server room",
+    "incorporation": "Entrepreneurs reviewing corporate registration documents with a woman advisor",
+    "incorporation-meeting": "Entrepreneur and accountant discussing company documentation at a glass desk",
+    "bca": "Wide Singapore building project with cranes and a contractor team in the distance",
+    "pr-application": "Singapore application consultation with a woman advisor and a couple, skyline background",
+    "contact": "Friendly consultant speaking with a client in a contemporary office"
+  }
+}

@@ -24,7 +24,7 @@ export const siteContent = {
   ],
   heroSlides: [
     { eyebrow: 'Engineering, Safety & BizSAFE Consultancy', title: 'Engineering Expertise.<br />Safer Workplaces.', description: 'Practical engineering, workplace safety and BizSAFE guidance for Singapore businesses. Build stronger systems with support shaped around your operations.', image: '/kmk-safety-hero.jpg', imageAlt: 'Safety professional reviewing an industrial workplace', button: 'Get Free Consultation' },
-    { eyebrow: 'BizSAFE Level 3 & Level 4 Support', title: 'Your Next Step in<br />Workplace Safety.', description: 'Prepare risk assessments, a Risk Management Plan and workplace safety systems with clear documentation and implementation guidance.', image: '/kmk-consultation.jpg', imageAlt: 'Professionals discussing workplace risk assessment plans', button: 'Talk to KMK' },
+    { eyebrow: 'BizSAFE Level 3 & Level 4 Support', title: 'Your Next Step in<br />Workplace Safety.', description: 'Prepare risk assessments, a Risk Management Plan and workplace safety systems with clear documentation and implementation guidance.', image: '/service-photos/bizsafe-level-3-service.jpg', imageAlt: 'Safety officer checking machine guarding with a worker', button: 'Talk to KMK' },
     { eyebrow: 'BizSAFE STAR & ISO Consultancy', title: 'Stronger Systems.<br />Confident Preparation.', description: 'Connect safety management, ISO documentation and audit preparation with the way your business actually works.', image: '/kmk-engineering.jpg', imageAlt: 'Engineer inspecting industrial equipment', button: 'Discuss Your Requirements' },
   ],
   proofPoints: [
