@@ -8,17 +8,19 @@ export const siteContent = {
   },
   labels: { servicesCta: 'Explore Our Services', learnMore: 'Learn More', consultationCta: 'Get My Free Consultation' },
   navigation: [
-    { label: 'Home', href: '#home' }, { label: 'About', href: '#about' },
-    { label: 'BizSAFE', href: '#services', children: [
-      { label: 'BizSAFE Level 3', href: '#feature-level-3' },
-      { label: 'BizSAFE Level 4', href: '#feature-level-4' },
-      { label: 'BizSAFE STAR', href: '#feature-star' },
+    { label: 'Home', href: '/' }, { label: 'About', href: '/about' },
+    { label: 'BizSAFE', href: '/bizsafe', children: [
+      { label: 'BizSAFE Level 1', href: '/bizsafe-level-1' },
+      { label: 'BizSAFE Level 2', href: '/bizsafe-level-2' },
+      { label: 'BizSAFE Level 3', href: '/bizsafe-level-3' },
+      { label: 'BizSAFE Level 4', href: '/bizsafe-level-4' },
+      { label: 'BizSAFE STAR', href: '/bizsafe-star' },
     ] },
-    { label: 'ISO', href: '#iso', children: [
-      { label: 'ISO 9001', href: '#iso-9001' }, { label: 'ISO 14001', href: '#iso-14001' }, { label: 'ISO 45001', href: '#iso-45001' },
+    { label: 'ISO', href: '/iso', children: [
+      { label: 'ISO 9001', href: '/iso-9001' }, { label: 'ISO 14001', href: '/iso-14001' }, { label: 'ISO 45001', href: '/iso-45001' }, { label: 'ISO 22000', href: '/iso-22000' }, { label: 'ISO 27001', href: '/iso-27001' },
     ] },
-    { label: 'Incorporation', href: '#incorporation' }, { label: 'BCA', href: '#bca' },
-    { label: 'Blog', href: '#blog' }, { label: 'Contact', href: '#contact' },
+    { label: 'Incorporation', href: '/incorporation' }, { label: 'BCA', href: '/bca' },
+    { label: 'PR Application', href: '/pr-application' }, { label: 'Blog', href: '/blog' }, { label: 'Contact', href: '/contact' },
   ],
   heroSlides: [
     { eyebrow: 'Engineering, Safety & BizSAFE Consultancy', title: 'Engineering Expertise.<br />Safer Workplaces.', description: 'Practical engineering, workplace safety and BizSAFE guidance for Singapore businesses. Build stronger systems with support shaped around your operations.', image: '/kmk-safety-hero.jpg', imageAlt: 'Safety professional reviewing an industrial workplace', button: 'Get Free Consultation' },
@@ -44,14 +46,16 @@ export const siteContent = {
     { id: 'star', label: 'Safety Management', title: 'BizSAFE STAR Preparation', description: 'Develop a more mature safety management system with a focus on implementation and continual improvement. KMK can review system gaps, management review records and supporting evidence as your business prepares for independent assessment.', image: '/kmk-engineering.jpg', alt: 'Engineer reviewing equipment and safety systems', points: ['Review safety management and ISO 45001 alignment', 'Prepare internal review and management review records', 'Plan audit readiness and continuing improvement'], cta: 'Plan Your STAR Journey' },
   ],
   services: [
-    { id: 'iso', title: 'ISO Consultancy', description: 'Practical support for quality, environmental and occupational health and safety management systems.', href: '#iso', icon: 'layers' },
-    { id: 'engineering', title: 'Engineering Consultancy', description: 'Review site, equipment and process requirements alongside practical technical and safety considerations.', href: '#engineering', icon: 'compass' },
-    { id: 'risk', title: 'Risk Assessment', description: 'Understand workplace hazards, evaluate risks and document controls with your operations team.', href: '#feature-level-3', icon: 'clipboard' },
-    { id: 'documentation', title: 'Safety Documentation', description: 'Prepare Safe Work Procedures, safety policies, inspection records and emergency arrangements.', href: '#contact', icon: 'file' },
-    { id: 'compliance', title: 'Audit Readiness', description: 'Review implementation evidence, organise supporting records and plan corrective actions.', href: '#certification', icon: 'check' },
-    { id: 'bizsafe', title: 'WSH Consultancy', description: 'Connect risk controls and management responsibilities with the work carried out at your site.', href: '#services', icon: 'shield' },
+    { id: 'iso', title: 'ISO Consultancy', description: 'Practical support for quality, environmental and occupational health and safety management systems.', href: '/iso', icon: 'layers' },
+    { id: 'engineering', title: 'Engineering Consultancy', description: 'Review site, equipment and process requirements alongside practical technical and safety considerations.', href: '/engineering', icon: 'compass' },
+    { id: 'risk', title: 'Risk Assessment', description: 'Understand workplace hazards, evaluate risks and document controls with your operations team.', href: '/risk-assessment', icon: 'clipboard' },
+    { id: 'documentation', title: 'Safety Documentation', description: 'Prepare Safe Work Procedures, safety policies, inspection records and emergency arrangements.', href: '/safety-documentation', icon: 'file' },
+    { id: 'compliance', title: 'Audit Readiness', description: 'Review implementation evidence, organise supporting records and plan corrective actions.', href: '/audit-readiness', icon: 'check' },
+    { id: 'bizsafe', title: 'WSH Consultancy', description: 'Connect risk controls and management responsibilities with the work carried out at your site.', href: '/wsh-consultancy', icon: 'shield' },
   ],
   isoStandards: [
+    { id: 'iso-22000', title: 'ISO 22000', description: 'Food safety management: identify food safety hazards, organise operational controls and prepare implementation records.' },
+    { id: 'iso-27001', title: 'ISO 27001', description: 'Information security management: review information risks, select controls and document responsibilities and monitoring.' },
     { id: 'iso-9001', title: 'ISO 9001', description: 'Quality management: consistent processes, customer requirements, internal audit and management review preparation.' },
     { id: 'iso-14001', title: 'ISO 14001', description: 'Environmental management: review environmental aspects, operational controls, monitoring and supporting records.' },
     { id: 'iso-45001', title: 'ISO 45001', description: 'Occupational health and safety: hazards, worker participation, responsibilities and implementation evidence.' },
@@ -86,5 +90,5 @@ export const siteContent = {
     { question: 'How can KMK help with certification preparation?', answer: 'KMK can review workplace arrangements, help develop documentation, discuss implementation gaps and organise evidence for assessment. Consultancy support does not itself award certification; independent auditors or certification bodies carry out assessment.' },
   ],
   contact: { eyebrow: 'Free Consultation', heading: 'Get a Free Consultation', description: 'Tell us about your engineering, safety, BizSAFE or ISO requirements. Share your current position and goals so we can discuss the next steps.', formNotice: 'This form opens an email draft when a KMK email address is configured. Nothing is sent automatically.' },
-  footer: { about: 'Engineering, workplace safety and compliance preparation for Singapore businesses. Practical BizSAFE, risk management and ISO guidance, built around your operations.', quickLinks: [ { label: 'Home', href: '#home' }, { label: 'About KMK', href: '#about' }, { label: 'Our Services', href: '#services' }, { label: 'Our Blog', href: '#blog' }, { label: 'FAQ', href: '#faqs' }, { label: 'Contact Us', href: '#contact' } ] },
+  footer: { about: 'Engineering, workplace safety and compliance preparation for Singapore businesses. Practical BizSAFE, risk management and ISO guidance, built around your operations.', quickLinks: [ { label: 'Home', href: '/' }, { label: 'About KMK', href: '/about' }, { label: 'Our Services', href: '/bizsafe' }, { label: 'Our Blog', href: '/blog' }, { label: 'FAQ', href: '/faq' }, { label: 'Contact Us', href: '/contact' } ] },
 };

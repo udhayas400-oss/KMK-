@@ -1,5 +1,8 @@
 ﻿import { useScrollReveal, type RevealProfile } from '../../hooks/useScrollReveal';
 const profiles: readonly RevealProfile[] = [
+  { selector: '.preparation-page .feature-image', motion: 'left' },
+  { selector: '.preparation-page .split-layout > div', motion: 'right' },
+  { selector: '#bca .bca-benefit-grid > article,#bca .bca-grading-grid > article,#bca .bca-requirement-list > article', motion: 'up', stagger: .1 },
   { selector: '.about-image > img', motion: 'mask-left', trigger: '.about-image' },
   { selector: '#about .split-layout > div:last-child', motion: 'right' },
   { selector: '.feature-row:not(.reverse) > .feature-image,.feature-row.reverse > div', motion: 'left' },
