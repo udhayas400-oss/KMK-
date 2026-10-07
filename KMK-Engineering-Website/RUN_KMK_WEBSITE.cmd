@@ -34,10 +34,10 @@ if not exist node_modules (
 
 echo.
 echo Starting KMK website...
-echo When Vite shows Local: http://localhost:5180/
+echo When Vite shows Local: http://localhost:5173/
 echo open the exact Local address printed by Vite below.
 echo.
-call npm run dev
+call npm run dev -- --port 5173 --strictPort
 if errorlevel 1 (
   echo ERROR: The server could not start. Read the message above.
   echo If the port is occupied, close the previous KMK server window and retry.
