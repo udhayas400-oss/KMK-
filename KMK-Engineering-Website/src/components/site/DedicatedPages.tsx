@@ -18,7 +18,7 @@ export function DedicatedPages({route}:{route:string}){
  else if(route==='/blog')content=<BlogSection/>;
  else if(route==='/faq')content=<FaqSection/>;
  else if(route==='/incorporation')content=<IncorporationPage/>;
- else if(route==='/bca')content=<section className="section dark-section other-services"><div className="container"><h1>BCA Registration Support</h1><BusinessPlaceholders only="bca"/></div></section>;
+ else if(route==='/bca')content=<section className="section dark-section other-services bca-page-section"><div className="container"><h1>BCA Registration Support</h1><BusinessPlaceholders only="bca"/></div></section>;
  else if(route==='/bizsafe')content=<><FeaturedServices only="bizsafe"/><Overview title="Choose your BizSAFE level" items={[1,2,3,4].map(level=>({title:`BizSAFE Level ${level}`,description:'Explore preparation support for your chosen BizSAFE level.',href:`/bizsafe-level-${level}`})).concat([{title:'BizSAFE STAR',description:'Explore safety management-system preparation.',href:'/bizsafe-star'}])}/></>;
  else if(['/bizsafe-level-3','/bizsafe-level-4','/bizsafe-star'].includes(route))content=<FeaturedServices only={route.replace('/bizsafe-','')}/>;
  else if(['/bizsafe-level-1','/bizsafe-level-2'].includes(route))content=<Preparation title={`BizSAFE Level ${route.endsWith('1')?'1':'2'} Preparation`} intro="Discuss the starting point for your workplace safety journey and the training and preparation relevant to your intended level." points={['Review your current workplace safety arrangements and intended level.','Identify relevant training needs with your management and workplace team.','Organise existing safety policies and risk-management documents.','Agree the preparation scope and next steps with KMK.']}/>;

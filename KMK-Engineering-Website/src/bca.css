@@ -50,3 +50,8 @@
 @media(max-width:1199px){#bca .bca-benefit-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:991px){#bca .bca-grading-grid{grid-template-columns:minmax(0,1fr)}}
 @media(max-width:767px){#bca .bca-benefit-grid{grid-template-columns:minmax(0,1fr)}#bca .bca-info-card{padding:24px}#bca .bca-requirement-card{grid-template-columns:54px minmax(0,1fr)}#bca .bca-number{font-size:32px;padding-top:24px}#bca .bca-requirement-card>div:last-child{padding:24px 18px}#bca .bca-cr06{padding:18px}#bca .bca-cr06-grid{grid-template-columns:minmax(0,1fr)}#bca .bca-info-card h4,#bca .bca-requirement-card h4{font-size:21px}}
+
+/* Compact only the dedicated BCA introduction; preserve all other page spacing. */
+.section.bca-page-section{padding:40px 0}
+.bca-page-section .business-placeholders{margin-top:20px}
+.bca-page-section #bca.business-placeholder{align-items:start;row-gap:24px;padding-top:20px;padding-bottom:20px}
