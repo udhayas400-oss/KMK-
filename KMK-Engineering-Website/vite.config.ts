@@ -22,6 +22,9 @@ export default defineConfig({
     emptyOutDir: true,
   },
   server: {
+    // Polling reliably detects saves inside Windows/OneDrive synced folders.
+    watch: { usePolling: true, interval: 100 },
+    hmr: true,
     strictPort: true,
     port: Number.isFinite(port) && port > 0 ? port : 5173,
     host: '0.0.0.0',
