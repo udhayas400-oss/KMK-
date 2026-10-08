@@ -27,7 +27,7 @@ export default defineConfig({
     hmr: true,
     strictPort: true,
     port: Number.isFinite(port) && port > 0 ? port : 5173,
-    host: '0.0.0.0',
+    host: true,
   },
   preview: {
     port: Number.isFinite(port) && port > 0 ? port : 5173,
