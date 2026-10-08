@@ -1,5 +1,5 @@
 import { motion, useReducedMotion } from 'framer-motion';
-import { ArrowRight, BadgeCheck, Building2, HardHat, UserRoundCheck } from 'lucide-react';
+import { ArrowRight, BadgeCheck, Building2 } from 'lucide-react';
 import { getServiceImage } from '../../serviceImage';
 import { siteContent } from '../../content';
 import './other-services.css';
@@ -7,8 +7,6 @@ import './other-services.css';
 const services = [
   { title: 'ISO Consulting', href: '/iso', icon: BadgeCheck, cta: 'Explore ISO Consulting', description: 'End-to-end ISO consultancy and certification preparation for quality, environmental, workplace safety, food-safety and information-security management systems.', detail: 'ISO 9001 · ISO 14001 · ISO 45001 · ISO 22000 · ISO 27001' },
   { title: 'Company Incorporation', href: '/incorporation', icon: Building2, cta: 'Start Incorporation Process', description: 'Start your business in Singapore with KMK guidance on company setup, supporting documentation and incorporation preparation.' },
-  { title: 'BCA Registration', href: '/bca', icon: HardHat, cta: 'Explore BCA Registration', description: 'Prepare for contractor registration with guidance on workheads, grading, documentation and the BCA requirements relevant to your business.' },
-  { title: 'PR Application Support', href: '/pr-application', icon: UserRoundCheck, cta: 'Explore PR Application', description: 'Review your eligibility and organise supporting documents with KMK guidance for Singapore PR application preparation.' },
 ];
 
 export function OtherServicesOverview() {
