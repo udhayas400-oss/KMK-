@@ -18,7 +18,7 @@ if errorlevel 1 goto :nonode
 
 echo.
 echo Checking npm...
-npm -v
+call npm -v
 if errorlevel 1 goto :nonpm
 
 echo.

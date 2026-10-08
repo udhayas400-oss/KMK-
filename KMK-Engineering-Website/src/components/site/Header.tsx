@@ -2,7 +2,7 @@ import { useEffect, useRef, useState, type MouseEvent } from 'react';
 import { navigateTo } from '../../routing';
 import { ArrowRight, ChevronDown, Mail, Phone, ShieldCheck, X } from 'lucide-react';
 import { siteContent } from '../../content';
-import logoUrl from '../../../logi.jpeg';
+const logoUrl = '/KMK-LOGO-COLOR.png';
 import { ButtonLabel } from './ButtonLabel';
 
 function Brand(){return <><span className="brand-logo"><img src={logoUrl} alt="KMK Engineering logo" width="58" height="58"/></span><span className="brand-name">KMK Engineering<span className="brand-sub">& CONSULTANCY</span></span></>;}

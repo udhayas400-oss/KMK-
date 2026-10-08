@@ -39,7 +39,7 @@ a:hover>.button-label>span,button:hover>.button-label>span,a:focus-visible>.butt
  .nav-links,.nav-links.open{display:flex;position:fixed;top:0;left:0;right:auto;bottom:0;width:310px;height:100dvh;max-height:none;padding:24px;background:var(--navy);color:white;border:0;box-shadow:none;flex-direction:column;align-items:stretch;gap:0;z-index:60;transform:translateX(-100%);opacity:0;visibility:hidden;transition:transform .4s cubic-bezier(.785,.135,.15,.86),opacity .4s cubic-bezier(.785,.135,.15,.86),visibility .4s;overflow-y:auto;overscroll-behavior:contain}
  .nav-links.open{transform:none;opacity:1;visibility:visible}
  .drawer-header{display:flex;align-items:center;justify-content:space-between;gap:8px;padding-bottom:24px;margin-bottom:16px;border-bottom:1px solid #ffffff30}
- .drawer-header .brand{gap:8px}.drawer-header .brand-logo{width:40px;height:40px}.drawer-header .brand-name{font-size:14px}.drawer-header .brand-sub{font-size:7px;letter-spacing:1px}
+ .drawer-header .brand{gap:8px}.drawer-header .brand-logo{width:72px;height:48px}.drawer-header .brand-name{font-size:14px}.drawer-header .brand-sub{font-size:7px;letter-spacing:1px}
  .drawer-header>button{background:transparent;color:white;padding:4px;display:grid;place-items:center}
  .nav-item{border-color:#ffffff30}.nav-label>a{padding:16px 0}.dropdown-toggle{color:white}
  .nav-dropdown,.nav-item.expanded .nav-dropdown{display:grid;grid-template-rows:0fr;position:static;transform:none;opacity:1;min-width:0;background:transparent;margin:0;visibility:hidden;transition:grid-template-rows .3s ease,visibility .3s}
