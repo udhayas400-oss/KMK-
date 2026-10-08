@@ -1,4 +1,4 @@
-.page-header-banner{position:relative;isolation:isolate;overflow:clip;background:#031e2f;color:#fff;padding:48px 0;min-height:0;display:flex;align-items:center}
+.page-header-banner{position:relative;isolation:isolate;overflow:clip;background:var(--banner-dark);color:#fff;padding:48px 0;min-height:0;display:flex;align-items:center}
 .page-header-banner .page-banner-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center;gap:64px}
 .page-header-banner .page-banner-heading,.page-header-banner .page-banner-description{min-width:0}
 .page-header-banner h1{color:#fff;font-size:clamp(36px,4vw,56px);font-weight:700;line-height:1.15;letter-spacing:-1px;margin:0 0 24px;overflow-wrap:break-word}
@@ -9,7 +9,7 @@
 .page-header-banner .page-banner-breadcrumb svg{display:block;color:#9fbcc9}
 .page-header-banner .page-banner-description{display:flex;align-items:flex-start;gap:22px}
 .page-header-banner .page-banner-arrow{color:var(--green);flex-shrink:0;margin-top:2px}
-.page-header-banner .page-banner-description p{font-size:18px;line-height:1.8;color:#75c4d5;max-width:560px;margin:0;overflow-wrap:break-word}
+.page-header-banner .page-banner-description p{font-size:18px;line-height:1.8;color:var(--cyan-light);max-width:560px;margin:0;overflow-wrap:break-word}
 .page-header-banner .page-banner-breadcrumb.motion-entered{animation-delay:.12s}
 .page-header-banner .page-banner-arrow.motion-entered{animation-delay:.18s}
 .page-header-banner .page-banner-description p.motion-entered{animation-delay:.24s}

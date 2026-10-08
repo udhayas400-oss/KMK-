@@ -1,5 +1,5 @@
 /* Scoped review additions preserve the existing site's styles. */
-.section.testimonials-section{background:#082464}
+.section.testimonials-section{background:var(--navy-deep)}
 .testimonials-section .review-heading{max-width:900px;text-align:center;margin:0 auto 48px}
 .review-summary{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:22px;color:#e5eaf5;font-size:14px}
 .review-stars{display:inline-flex;gap:3px;color:var(--yellow);flex-shrink:0}
@@ -19,7 +19,7 @@
 .review-placeholder{align-self:flex-start;color:#08734b;background:#edf8f2;border-radius:4px;font-size:11px;line-height:1.5;padding:3px 7px;margin-top:18px}
 .google-review-card blockquote{font-size:15px;line-height:1.75;margin:18px 0 24px;flex:1;color:#354456}
 .review-source{display:flex;gap:10px;align-items:center;font-size:12px;color:#536272}
-.google-mark{font-size:25px;font-weight:800;color:#4285f4;line-height:1}
+.google-mark{font-size:25px;font-weight:800;color:var(--blue);line-height:1}
 .review-time{display:block;font-size:11px;margin-top:3px;color:#657589}
 .review-card-rating{display:flex;align-items:center;gap:8px;margin-top:18px;padding-top:16px;border-top:1px solid #e7ecf2;font-size:12px;color:#536272;flex-wrap:wrap}
 .business-placeholders{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:40px}
