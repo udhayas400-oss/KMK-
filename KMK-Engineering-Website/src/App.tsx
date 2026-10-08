@@ -1,6 +1,6 @@
 import { useEffect, useLayoutEffect } from 'react';
 import { usePageRoute } from './routing';
-import { AboutSection, BlogSection, FeaturedServices, HeroSection, MetricsSection, PartnersSection, SafetyStatement, ScrollProgress, ServicesSection, TestimonialSection, TrustStrip, WhySection } from './components/site/PremiumSections';
+import { AboutSection, BlogSection, HeroSection, MetricsSection, PartnersSection, SafetyStatement, ScrollProgress, ServicesSection, TestimonialSection, TrustStrip, WhySection } from './components/site/PremiumSections';
 import { ContactSection } from './components/site/ContactSection';
 import { FaqSection } from './components/site/FaqSection';
 import { Footer } from './components/site/Footer';
@@ -8,9 +8,10 @@ import { Header } from './components/site/Header';
 import { SiteEffects } from './components/site/SiteEffects';
 import { DedicatedPages } from './components/site/DedicatedPages';
 import { PageHeaderBanner } from './components/site/PageHeaderBanner';
+import { OurServicesOverview } from './components/site/OurServicesOverview';
 function RouteContent({route}:{route:string}){
  useLayoutEffect(()=>{window.scrollTo({top:0,left:0,behavior:'instant'});},[]);
- return <><SiteEffects/><main id="main-content" tabIndex={-1}>{route==='/'?<><HeroSection/><TrustStrip/><AboutSection/><FeaturedServices preview/><MetricsSection/><ServicesSection/><WhySection/><SafetyStatement/><BlogSection/><TestimonialSection/><PartnersSection/><FaqSection/><ContactSection/></>:<><PageHeaderBanner route={route}/><DedicatedPages route={route}/></>}</main></>;
+ return <><SiteEffects/><main id="main-content" tabIndex={-1}>{route==='/'?<><HeroSection/><TrustStrip/><AboutSection/><OurServicesOverview/><MetricsSection/><ServicesSection/><WhySection/><SafetyStatement/><BlogSection/><TestimonialSection/><PartnersSection/><FaqSection/><ContactSection/></>:<><PageHeaderBanner route={route}/><DedicatedPages route={route}/></>}</main></>;
 }
 function App(){
  const route=usePageRoute();

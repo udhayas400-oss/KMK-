@@ -4,7 +4,7 @@ import { useLayoutEffect, useRef } from 'react';
 export function useBcaAnimations() {
   const root = useRef<HTMLDivElement>(null);
   useLayoutEffect(() => {
-    const section = root.current?.querySelector('#bca');
+    const section = root.current?.querySelector<HTMLElement>('#bca');
     if (!section) return;
     const reduced = matchMedia('(prefers-reduced-motion: reduce)');
     const elements: HTMLElement[] = [];

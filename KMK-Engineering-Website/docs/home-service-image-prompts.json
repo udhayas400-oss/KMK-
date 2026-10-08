@@ -1,0 +1,21 @@
+{
+  "tool": "Built-in image_gen",
+  "assets": [
+    {
+      "path": "public/service-photos/home-bizsafe-consulting.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset: KMK homepage BizSAFE consulting service preview. Create a single professional high-quality landscape 4:3 editorial photograph. A Singapore workplace safety consultant and operations manager reviewing a risk register and floor plan at a clean industrial office desk, workshop visible through glass, candid three-quarter view. Natural realistic faces and hands, professional calm mood, navy and green clothing accents where plausible. No readable text, no logos, no branding, no watermarks. This is one separate photograph, never a collage. Save output for website integration."
+    },
+    {
+      "path": "public/service-photos/home-bizsafe-level3.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset: KMK homepage BizSAFE level3 service preview. Create a single professional high-quality landscape 4:3 editorial photograph. A female Singapore safety inspector with clipboard and a technician checking guarded machinery on a bright factory floor, both wearing appropriate safety glasses and high visibility vests, candid wide view. Natural realistic faces and hands, professional calm mood, navy and green clothing accents where plausible. No readable text, no logos, no branding, no watermarks. This is one separate photograph, never a collage. Save output for website integration."
+    },
+    {
+      "path": "public/service-photos/home-bizsafe-level4.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset: KMK homepage BizSAFE level4 service preview. Create a single professional high-quality landscape 4:3 editorial photograph. Diverse Singapore supervisors in a safety management meeting around a conference table, reviewing organized procedures and an implementation checklist, modern industrial training room, wide composition. Natural realistic faces and hands, professional calm mood, navy and green clothing accents where plausible. No readable text, no logos, no branding, no watermarks. This is one separate photograph, never a collage. Save output for website integration."
+    },
+    {
+      "path": "public/service-photos/home-bizsafe-star.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset: KMK homepage BizSAFE star service preview. Create a single professional high-quality landscape 4:3 editorial photograph. An independent safety auditor and senior manager reviewing organized audit evidence folders and a laptop in a Singapore corporate meeting room, mature advanced compliance assessment, natural daylight. Natural realistic faces and hands, professional calm mood, navy and green clothing accents where plausible. No readable text, no logos, no branding, no watermarks. This is one separate photograph, never a collage. Save output for website integration."
+    }
+  ]
+}
