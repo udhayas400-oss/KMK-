@@ -1,3 +1,4 @@
+import { SponsorPage } from './SponsorPage';
 import { ArrowRight } from 'lucide-react';
 import { siteContent as c } from '../../content';
 import { AboutSection, BlogSection, FeaturedServices, WhySection } from './PremiumSections';
@@ -24,7 +25,7 @@ export function DedicatedPages({route}:{route:string}){
  else if(['/bizsafe-level-1','/bizsafe-level-2'].includes(route))content=<Preparation title={`BizSAFE Level ${route.endsWith('1')?'1':'2'} Preparation`} intro="Discuss the starting point for your workplace safety journey and the training and preparation relevant to your intended level." points={['Review your current workplace safety arrangements and intended level.','Identify relevant training needs with your management and workplace team.','Organise existing safety policies and risk-management documents.','Agree the preparation scope and next steps with KMK.']}/>;
  else if(route==='/iso')content=<Overview image title="ISO Management-System Consultancy" items={c.isoStandards.map(item=>({...item,href:`/${item.id}`}))}/>;
  else if(c.isoStandards.some(item=>`/${item.id}`===route)){const item=c.isoStandards.find(item=>`/${item.id}`===route)!;content=<Preparation title={`${item.title} Consultancy`} intro={item.description} iso points={[`Build a structured approach to the ${item.title} management system.`,item.description,'Clarify scope, responsibilities, objectives and operational controls.','Maintain monitoring, internal audit and management review records.']}/>;}
- else if(route==='/pr-application')content=<Preparation title="PR Application Preparation" intro="Discuss your Singapore permanent residence application preparation and document organisation needs with KMK. The available support and scope can be agreed after reviewing your circumstances." points={['Review your intended application and existing documents.','Organise information and identify outstanding preparation tasks.','Check the current official application instructions before submission.','Application decisions remain with the relevant authorities.']}/>;
+ else if(route==='/sponsor')return <SponsorPage/>;
  else{const item=c.services.find(item=>item.href===route);content=item?<Preparation title={item.title} intro={item.description} points={['Review your current arrangements.','Organise documentation and practical next steps.','Agree responsibilities and the support scope with KMK.']}/>:<section className="section"><div className="container"><h1>Page not found</h1><a href="/">Return Home</a></div></section>;}
  return <>{content}<Cta/></>;
 }

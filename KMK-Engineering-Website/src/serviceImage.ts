@@ -66,10 +66,7 @@ const photos: Record<string, readonly [string,string]> = {
     "/service-photos/bca-service.jpg",
     "Wide Singapore building project with cranes and a contractor team in the distance"
   ],
-  "/pr-application": [
-    "/service-photos/pr-application-service.jpg",
-    "Singapore application consultation with a woman advisor and a couple, skyline background"
-  ],
+  "/sponsor": ["/service-photos/sponsor-technology.jpg", "Technology professionals collaborating in a modern office"],
   "/contact": [
     "/service-photos/contact-service.jpg",
     "Friendly consultant speaking with a client in a contemporary office"

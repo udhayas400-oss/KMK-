@@ -19,7 +19,7 @@ const pages: Record<string, { title: string; breadcrumb?: string; description: s
   '/iso-27001': { title: 'ISO 27001', description: 'Information security management system support for organizations preparing for ISO 27001 certification.' },
   '/incorporation': { title: 'Company Incorporation', description: 'Professional company incorporation support to help entrepreneurs and businesses establish their presence in Singapore efficiently.' },
   '/bca': { title: 'BCA Registration', description: 'Professional guidance for BCA registration, contractor classification, workheads, grading and supporting requirements.' },
-  '/pr-application': { title: 'PR Application', description: 'Professional guidance and documentation support for individuals preparing their Singapore Permanent Residence application.' },
+  '/sponsor': { title: 'Sponsor', description: 'Technology, digital marketing and creative solutions designed to help businesses innovate, build visibility and accelerate growth.' },
   '/blog': { title: 'Blog', breadcrumb: 'Blog', description: 'Explore practical insights, updates and guidance on BizSAFE, ISO, BCA, incorporation and business compliance.' },
   '/contact': { title: 'Contact Us', description: 'Get in touch with our team for BizSAFE, ISO, BCA, incorporation and consultancy support.' },
   '/faq': { title: 'Frequently Asked Questions', description: 'Find answers to common questions about workplace safety, certification preparation and KMK consultancy support.' },

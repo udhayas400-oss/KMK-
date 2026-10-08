@@ -17,7 +17,7 @@ function RouteContent({route}:{route:string}){
 function App(){
  const route=usePageRoute();
  useEffect(()=>{
-  document.title=(route==='/'?'Home':route.slice(1).replaceAll('-',' '))+' | KMK Engineering';
+  document.title=(route==='/'?'Home':route==='/sponsor'?'Sponsor':route.slice(1).replaceAll('-',' '))+' | KMK Engineering';
   document.querySelectorAll<HTMLAnchorElement>('.nav-links a').forEach(anchor=>{
    const active=anchor.pathname===route;
    if(active)anchor.setAttribute('aria-current','page');else anchor.removeAttribute('aria-current');

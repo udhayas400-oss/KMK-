@@ -1,0 +1,14 @@
+.sponsor-page{background:var(--surface-soft);overflow:clip}
+.sponsor-intro{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:64px;align-items:center}
+.sponsor-intro>div{min-width:0}.sponsor-intro h2{font-size:clamp(32px,4vw,50px);line-height:1.15}.sponsor-intro p{margin-top:26px}
+.sponsor-image{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:20px;box-shadow:0 16px 36px #062c4a24}
+.sponsor-services-heading{margin:72px 0 32px}
+.sponsor-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px}
+.sponsor-card{min-width:0;display:flex}.sponsor-card-surface{width:100%;padding:34px;border:1px solid var(--line);border-radius:18px;background:var(--surface);box-shadow:0 8px 24px #0756a30a;transition:transform .3s,box-shadow .3s,border-color .3s}
+.sponsor-card-surface:hover{transform:translateY(-5px);border-color:var(--green);box-shadow:0 16px 32px #0756a31b}
+.sponsor-card-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:26px}.sponsor-number{font-size:32px;font-weight:700;color:var(--blue);border-bottom:3px solid var(--yellow)}.sponsor-card-top svg{color:var(--green);transition:transform .3s}.sponsor-card-surface:hover svg{transform:translateY(-3px)}
+.sponsor-card h3{font-size:26px;line-height:1.25;overflow-wrap:anywhere}.sponsor-card .sponsor-tagline{font-weight:600;color:var(--blue-dark);margin:18px 0 12px}.sponsor-card p:last-child{margin:0}
+.sponsor-cta{margin-top:64px;padding:44px;border-radius:20px;background:var(--navy-deep);color:white;text-align:center}.sponsor-cta h2{color:white}.sponsor-cta p{color:#dce9ed}.sponsor-cta a{margin-top:8px;max-width:100%}
+@media(max-width:991px){.sponsor-intro{grid-template-columns:minmax(0,1fr);gap:32px}.sponsor-image{max-width:680px;margin:auto}.sponsor-card-surface{padding:26px}}
+@media(max-width:767px){.sponsor-grid{grid-template-columns:minmax(0,1fr)}.sponsor-services-heading{margin-top:48px}.sponsor-card h3{font-size:24px}.sponsor-cta{padding:30px 22px}.sponsor-cta h2{font-size:30px}}
+@media(prefers-reduced-motion:reduce){.sponsor-card-surface,.sponsor-card-top svg{transition:none}.sponsor-card-surface:hover,.sponsor-card-surface:hover svg{transform:none}}

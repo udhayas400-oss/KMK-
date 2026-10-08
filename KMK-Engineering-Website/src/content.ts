@@ -20,7 +20,7 @@ export const siteContent = {
       { label: 'ISO 9001', href: '/iso-9001' }, { label: 'ISO 14001', href: '/iso-14001' }, { label: 'ISO 45001', href: '/iso-45001' }, { label: 'ISO 22000', href: '/iso-22000' }, { label: 'ISO 27001', href: '/iso-27001' },
     ] },
     { label: 'Incorporation', href: '/incorporation' }, { label: 'BCA', href: '/bca' },
-    { label: 'PR Application', href: '/pr-application' }, { label: 'Blog', href: '/blog' }, { label: 'Contact', href: '/contact' },
+    { label: 'Sponsor', href: '/sponsor' }, { label: 'Blog', href: '/blog' }, { label: 'Contact', href: '/contact' },
   ],
   heroSlides: [
     { eyebrow: 'Engineering, Safety & BizSAFE Consultancy', title: 'Engineering Expertise.<br />Safer Workplaces.', description: 'Practical engineering, workplace safety and BizSAFE guidance for Singapore businesses. Build stronger systems with support shaped around your operations.', image: '/kmk-safety-hero.jpg', imageAlt: 'Safety professional reviewing an industrial workplace', button: 'Get Free Consultation' },

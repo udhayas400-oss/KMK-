@@ -10,6 +10,9 @@ const legacyRoutes: Record<string, string> = {
 for (const standard of ['9001', '14001', '45001', '22000', '27001']) legacyRoutes[`#iso-${standard}`] = `/iso-${standard}`;
 
 export function currentRoute() {
+  if (window.location.pathname.replace(/\/$/, '') === '/pr-application') {
+    history.replaceState({}, '', '/sponsor' + window.location.search);
+  }
   const legacy = legacyRoutes[window.location.hash];
   if (legacy) history.replaceState({}, '', legacy);
   return window.location.pathname.replace(/\/$/, '') || '/';
@@ -19,7 +22,7 @@ export function navigateTo(href: string) {
   const url = new URL(href, window.location.href);
   const legacy = legacyRoutes[url.hash];
   if (url.origin !== window.location.origin || (url.hash && !legacy)) return false;
-  const pathname = legacy || url.pathname;
+  const pathname = legacy || (url.pathname.replace(/\/$/, '') === '/pr-application' ? '/sponsor' : url.pathname);
   if (pathname !== window.location.pathname || window.location.hash) {
     history.pushState({}, '', pathname + (legacy ? '' : url.search));
     window.dispatchEvent(new PopStateEvent('popstate'));
